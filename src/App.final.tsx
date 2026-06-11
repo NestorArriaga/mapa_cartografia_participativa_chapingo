@@ -807,12 +807,12 @@ export default function AppFinal() {
             <div style={{ fontFamily:"'Space Grotesk',system-ui,sans-serif", fontSize:13, fontWeight:600, color:C.white, marginBottom:4, lineHeight:1.3 }}>
               {String(callout.props.title ?? 'Sin título')}
             </div>
-            {callout.props.summary && String(callout.props.summary).length > 0 && (
+            {Boolean(callout.props.summary) && String(callout.props.summary).length > 0 && (
               <div style={{ fontFamily:'Inter,system-ui,sans-serif', fontSize:10, color:C.muted, lineHeight:1.5 }}>
                 {String(callout.props.summary).slice(0,120)}{String(callout.props.summary).length>120?'…':''}
               </div>
             )}
-            {callout.props.ethicalNote && String(callout.props.ethicalNote).length > 0 && (
+            {Boolean(callout.props.ethicalNote) && String(callout.props.ethicalNote).length > 0 && (
               <div style={{ marginTop:8, padding:'6px 8px', background:'rgba(251,191,36,.07)', border:'1px solid rgba(251,191,36,.22)', borderRadius:6, fontSize:9.5, color:'rgba(251,191,36,.85)', lineHeight:1.5, fontFamily:'Inter,system-ui,sans-serif' }}>
                 {String(callout.props.ethicalNote)}
               </div>
@@ -1148,7 +1148,7 @@ function ZoneResumenTab({ zone }: { zone:ZoneResult }) {
           ))}
         </div>
       )}
-      {zone.properties.nota_web && (
+      {Boolean(zone.properties.nota_web) && (
         <div style={{ marginTop:10, padding:'8px 10px', background:'rgba(214,168,58,.05)', border:'1px solid rgba(214,168,58,.12)', borderRadius:7, fontFamily:'Inter,system-ui,sans-serif', fontSize:10, color:'rgba(214,168,58,.80)', lineHeight:1.5 }}>
           {String(zone.properties.nota_web)}
         </div>
@@ -1170,13 +1170,13 @@ function NodeResumenTab({ node }: { node:Record<string,unknown> }) {
           </div>
         </div>
       </div>
-      {node.summary && String(node.summary).length > 0 && (
+      {Boolean(node.summary) && String(node.summary).length > 0 && (
         <div style={{ marginBottom:14 }}>
           <SectionLabel>Descripción</SectionLabel>
           <div style={{ fontFamily:'Inter,system-ui,sans-serif', fontSize:11, color:'rgba(244,247,251,.80)', lineHeight:1.6 }}>{String(node.summary)}</div>
         </div>
       )}
-      {node.ethicalNote && String(node.ethicalNote).length > 0 && (
+      {Boolean(node.ethicalNote) && String(node.ethicalNote).length > 0 && (
         <div style={{ padding:'8px 10px', background:'rgba(251,191,36,.06)', border:'1px solid rgba(251,191,36,.18)', borderRadius:7, fontFamily:'Inter,system-ui,sans-serif', fontSize:10, color:'rgba(251,191,36,.85)', lineHeight:1.5, marginBottom:14 }}>
           ⚠ {String(node.ethicalNote)}
         </div>
