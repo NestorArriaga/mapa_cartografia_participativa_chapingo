@@ -1,0 +1,9 @@
+pendiente,prioridad,motivo
+Digitalizar red interna peatonal del campus,muy_alta,RNC no representa andadores internos; necesario para rutas visuales con sentido.
+Validar puntos de Ruta Segura y Torobús,alta,"Confirmar vigencia, horarios, paradas y trazo antes de publicarlos como recurso operativo."
+Validar botones de ayuda/cámaras/alarmas,alta,No llamarlos recursos funcionales si no se verifica operación.
+Validar DENUE/clave entidad y establecimientos,alta,No convertir comercio/bar en punto seguro ni punto de riesgo sin verificación y cuidado legal.
+Levantar datos específicos de Boyeros,media_alta,Aparece como zona con hipótesis y baja respuesta en Forms.
+Homologar ISSTE/ISSSTE,media,Consistencia cartográfica y textual.
+Ampliar encuesta y talleres,muy_alta,El Forms actual es piloto con 24 respuestas; mejorar n y validar capas.
+Revisión legal/ética de casos documentados,alta,"Evitar revictimización, acusaciones no verificadas y exposición de detalles sensibles."

@@ -1,0 +1,233 @@
+[
+  {
+    "layerName": "evidencia_documental_agregada_por_zona_v06.geojson",
+    "reason": "categoría o tipo sensible ('sensible', '')",
+    "matchedTerms": [
+      "internado",
+      "residencia",
+      "residencias",
+      "dormitorio",
+      "dormitorios"
+    ],
+    "propertiesSnapshot": {
+      "id": "M1_03",
+      "modulo": "M1 campus",
+      "nombre": "Internado / residencias de noche",
+      "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+      "categoria": "sensible",
+      "subcat": "residencial_institucional",
+      "urgencia": "alta",
+      "urg_num": 4,
+      "pct_ref": 73.3,
+      "precision": "sensible_no_exacta",
+      "estado_ver": "parcial_fuente_documental",
+      "nivel_uso": "04_no_publicar_sensible",
+      "regla_pub": "NO_PUBLICAR_exactitud; publicar_solo_agregado",
+      "variable": "residencia_sensible",
+      "fuente": "encuesta; CIMAC",
+      "nota": "No publicar ubicación exacta de dormitorios."
+    }
+  },
+  {
+    "layerName": "evidencia_documental_agregada_por_zona_v06.geojson",
+    "reason": "categoría o tipo sensible ('sensible', '')",
+    "matchedTerms": [
+      "internado",
+      "baño",
+      "baños"
+    ],
+    "propertiesSnapshot": {
+      "id": "M1_04",
+      "modulo": "M1 campus",
+      "nombre": "Baños del internado",
+      "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+      "categoria": "sensible",
+      "subcat": "banos_internado",
+      "urgencia": "alta",
+      "urg_num": 4,
+      "pct_ref": 83.3,
+      "precision": "sensible_no_exacta",
+      "estado_ver": "piloto",
+      "nivel_uso": "04_no_publicar_sensible",
+      "regla_pub": "NO_PUBLICAR_exactitud; publicar_solo_indicador_agregado",
+      "variable": "espacios_confinados_sensibles",
+      "fuente": "encuesta; estudios_acoso_universitario",
+      "nota": "Muestra pequeña; no publicar punto."
+    }
+  },
+  {
+    "layerName": "evidencia_documental_agregada_por_zona_v06.geojson",
+    "reason": "nivel_uso contiene '04_no_publicar_sensible'",
+    "matchedTerms": [],
+    "propertiesSnapshot": {
+      "id": "M1_07",
+      "modulo": "M1 campus",
+      "nombre": "Acceso Puerta San Ignacio",
+      "zona": "COOPERATIVO/CABAÑAS",
+      "categoria": "acceso_movilidad",
+      "subcat": "acceso_perimetral",
+      "urgencia": "alta",
+      "urg_num": 4,
+      "pct_ref": 62.5,
+      "precision": "nodo_existente_por_validar",
+      "estado_ver": "parcial_fuente_documental",
+      "nivel_uso": "04_no_publicar_sensible",
+      "regla_pub": "publicar_acceso; no_publicar_testimonio_crudo",
+      "variable": "accesos_cerrados; rutas_alternativas",
+      "fuente": "encuesta; directorio_UACh; incidente_2016",
+      "nota": "Asociar a tramo Cooperativo, no a punto de víctima."
+    }
+  },
+  {
+    "layerName": "evidencia_documental_agregada_por_zona_v06.geojson",
+    "reason": "nivel_uso contiene '04_no_publicar_sensible'",
+    "matchedTerms": [],
+    "propertiesSnapshot": {
+      "id": "M3_01",
+      "modulo": "M3 establecimientos",
+      "nombre": "La Tía — bar clandestino",
+      "zona": "SALITRERIA",
+      "categoria": "establecimiento_nocturno",
+      "subcat": "bar_clandestino",
+      "urgencia": "alta",
+      "urg_num": 4,
+      "pct_ref": 0,
+      "precision": "sin_geolocalizacion",
+      "estado_ver": "NO_VERIFICADO_geoloc",
+      "nivel_uso": "04_no_publicar_sensible",
+      "regla_pub": "NO_PUBLICAR_hasta_geolocalizar_y_validar",
+      "variable": "establecimiento_clandestino_revision",
+      "fuente": "ficha; validacion_participativa_pendiente",
+      "nota": "No publicar sin ubicación y verificación sólida."
+    }
+  },
+  {
+    "layerName": "evidencia_documental_agregada_por_zona_v06.geojson",
+    "reason": "Términos sensibles encontrados en texto",
+    "matchedTerms": [
+      "violación"
+    ],
+    "propertiesSnapshot": {
+      "id": "M4_08",
+      "modulo": "M4 casos",
+      "nombre": "Violación sexual Baile de la Quema — puente Cooperativo",
+      "zona": "COOPERATIVO/CABAÑAS",
+      "categoria": "caso_documentado",
+      "subcat": "violacion_sexual",
+      "urgencia": "alta",
+      "urg_num": 4,
+      "pct_ref": 0,
+      "precision": "tramo_no_punto",
+      "estado_ver": "documental",
+      "nivel_uso": "01_web_publico_core",
+      "regla_pub": "publicar_tramo_agregado_no_punto_victima",
+      "variable": "memoria_tramo_cooperativo",
+      "fuente": "CIMAC; ficha",
+      "nota": "Evitar identificación de víctima."
+    }
+  },
+  {
+    "layerName": "evidencia_documental_agregada_por_zona_v06.geojson",
+    "reason": "Términos sensibles encontrados en texto",
+    "matchedTerms": [
+      "dormitorio",
+      "dormitorios"
+    ],
+    "propertiesSnapshot": {
+      "id": "M4_10",
+      "modulo": "M4 casos",
+      "nombre": "Feminicidio Zuly Shanty Cruz Mendoza",
+      "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+      "categoria": "caso_documentado",
+      "subcat": "feminicidio_intracampus",
+      "urgencia": "alta",
+      "urg_num": 4,
+      "pct_ref": 0,
+      "precision": "campus_agregado",
+      "estado_ver": "documental",
+      "nivel_uso": "01_web_publico_core",
+      "regla_pub": "publicar_memoria_contextual_no_punto_exactitud",
+      "variable": "memoria_violencia_intracampus",
+      "fuente": "CIMAC; ficha",
+      "nota": "No publicar dormitorios exactos."
+    }
+  },
+  {
+    "layerName": "evidencia_documental_agregada_por_zona_v06.geojson",
+    "reason": "Términos sensibles encontrados en texto",
+    "matchedTerms": [
+      "teléfono"
+    ],
+    "propertiesSnapshot": {
+      "id": "M7_02",
+      "modulo": "M7 recursos",
+      "nombre": "Puerta Principal UACh",
+      "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+      "categoria": "recurso_apoyo",
+      "subcat": "control_acceso",
+      "urgencia": "recurso",
+      "urg_num": 0,
+      "pct_ref": 0,
+      "precision": "nodo_existente",
+      "estado_ver": "requiere_validar_contacto",
+      "nivel_uso": "03_revision_controlada",
+      "regla_pub": "publicar_si_vigente",
+      "variable": "contactos_emergencia",
+      "fuente": "directorio_UACh",
+      "nota": "Teléfono según ficha."
+    }
+  },
+  {
+    "layerName": "evidencia_documental_agregada_por_zona_v06.geojson",
+    "reason": "categoría o tipo sensible ('apoyo_informal', '')",
+    "matchedTerms": [
+      "cuarto",
+      "casa de compañera",
+      "compañera",
+      "apoyo informal"
+    ],
+    "propertiesSnapshot": {
+      "id": "M7_09",
+      "modulo": "M7 recursos",
+      "nombre": "Apoyo informal: cuarto/casa de compañera",
+      "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+      "categoria": "apoyo_informal",
+      "subcat": "red_companeras",
+      "urgencia": "recurso",
+      "urg_num": 0,
+      "pct_ref": 0,
+      "precision": "sensible_no_exacta",
+      "estado_ver": "piloto",
+      "nivel_uso": "04_no_publicar_sensible",
+      "regla_pub": "NO_PUBLICAR; solo_contador_agregado",
+      "variable": "redes_cuidado_informal",
+      "fuente": "encuesta",
+      "nota": "Nunca publicar casas/cuartos."
+    }
+  },
+  {
+    "layerName": "evidencia_documental_agregada_por_zona_v06.geojson",
+    "reason": "categoría o tipo sensible ('apoyo_informal', '')",
+    "matchedTerms": [
+      "apoyo informal"
+    ],
+    "propertiesSnapshot": {
+      "id": "M7_10",
+      "modulo": "M7 recursos",
+      "nombre": "Apoyo informal: negocio o tienda local",
+      "zona": "SALITRERIA",
+      "categoria": "apoyo_informal",
+      "subcat": "negocio_local",
+      "urgencia": "recurso",
+      "urg_num": 0,
+      "pct_ref": 0,
+      "precision": "sensible_por_validar",
+      "estado_ver": "piloto",
+      "nivel_uso": "03_revision_controlada",
+      "regla_pub": "revision; no_punto_seguro",
+      "variable": "redes_cuidado_informal",
+      "fuente": "encuesta",
+      "nota": "No convertir negocio en punto seguro sin consentimiento/validación."
+    }
+  }
+]

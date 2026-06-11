@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "testimony_route_dicifo_boyeros",
+        "nombre": "Corredor DICIFO ↔ Boyeros",
+        "tipo": "corredor_cualitativo_validacion",
+        "precision": "conceptual",
+        "descripcion": "Corredor derivado de menciones testimoniales sobre trayectos inseguros.",
+        "tooltip": "Corredor cualitativo de validación. No es ruta segura ni ruta exacta."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89360038863026,
+            19.4932945048691
+          ],
+          [
+            -98.9106280898513,
+            19.499055255232797
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1452 @@
+{
+  "type": "FeatureCollection",
+  "name": "nodos_orientacion_base_v06",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 1,
+        "nombre": "ESTADIO UNIVERSITARIO",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 160.95,
+        "conector": "media_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89072371651365,
+          19.494560265674686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 2,
+        "nombre": "CATACUMBAS",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 311.41,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88757657468072,
+          19.49233594170799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 3,
+        "nombre": "ENTRADA PRINCIPAL AL CAMPUS",
+        "categoria_src": "movilidad_acceso_conexion",
+        "uso_src": "accesos_y_conectores_para_analisis_de_movilidad",
+        "tipo_web": "acceso_movilidad",
+        "estado_web": "PUBLICO",
+        "razon": "nodo de orientación/movilidad, no ruta segura",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 6.23,
+        "conector": "alta_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88502922307092,
+          19.49086685557748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 4,
+        "nombre": "DICEA",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 202.14,
+        "conector": "media_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88642622131206,
+          19.489680736026592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 5,
+        "nombre": "DIRECCIÓN DE ADMINISTRACIÓN\"EDIFICIO CON PATAS\"",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 69.23,
+        "conector": "alta_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88565738532549,
+          19.49079303446154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 6,
+        "nombre": "DEIS SUELOS",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 115.11,
+        "conector": "media_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88621910067215,
+          19.494381216311037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 7,
+        "nombre": "DEPARTAMENTO DE FITOTECNIA",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 42.51,
+        "conector": "alta_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88642431237382,
+          19.4950720648405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 8,
+        "nombre": "DEPARTAMENTO DE PARASITOLOGIA",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 65.25,
+        "conector": "alta_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88553450014656,
+          19.49474741319532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 10,
+        "nombre": "COMEDOR CENTRAL",
+        "categoria_src": "servicio_equipamiento_campus",
+        "uso_src": "equipamiento_con_afluencia; contexto para movilidad y cuidado",
+        "tipo_web": "servicio_campus",
+        "estado_web": "PUBLICO",
+        "razon": "equipamiento/servicio institucional público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 355.39,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89103288427833,
+          19.492826740596467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 11,
+        "nombre": "PARTENON UNIVERSITARIO",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 475.74,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89085422266189,
+          19.491706501108624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 13,
+        "nombre": "TERMINAL - SALA DE ESTUDIOS",
+        "categoria_src": "movilidad_acceso_conexion",
+        "uso_src": "accesos_y_conectores_para_analisis_de_movilidad",
+        "tipo_web": "acceso_movilidad",
+        "estado_web": "PUBLICO",
+        "razon": "nodo de orientación/movilidad, no ruta segura",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 92.32,
+        "conector": "media_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88760678461509,
+          19.494772081548465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 14,
+        "nombre": "ENTRADA FITOTECNIA",
+        "categoria_src": "movilidad_acceso_conexion",
+        "uso_src": "accesos_y_conectores_para_analisis_de_movilidad",
+        "tipo_web": "acceso_movilidad",
+        "estado_web": "PUBLICO",
+        "razon": "nodo de orientación/movilidad, no ruta segura",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 23.35,
+        "conector": "alta_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88734785266215,
+          19.495368692415067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 15,
+        "nombre": "DICIFO",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 340.93,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89360038863026,
+          19.4932945048691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 16,
+        "nombre": "ENTRADA DE \"EL GALLO\"",
+        "categoria_src": "movilidad_acceso_conexion",
+        "uso_src": "accesos_y_conectores_para_analisis_de_movilidad",
+        "tipo_web": "acceso_movilidad",
+        "estado_web": "PUBLICO",
+        "razon": "nodo de orientación/movilidad, no ruta segura",
+        "en_campus": "no",
+        "zona_base": "fuera_zonas_base",
+        "dist_via_m": 2.91,
+        "conector": "alta_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89283437207115,
+          19.496277974420053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 17,
+        "nombre": "CALZADA",
+        "categoria_src": "movilidad_acceso_conexion",
+        "uso_src": "accesos_y_conectores_para_analisis_de_movilidad",
+        "tipo_web": "acceso_movilidad",
+        "estado_web": "PUBLICO",
+        "razon": "nodo de orientación/movilidad, no ruta segura",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 266.75,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88748329356858,
+          19.49148354233407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 18,
+        "nombre": "COMEDOR CAMPESTRE",
+        "categoria_src": "servicio_equipamiento_campus",
+        "uso_src": "equipamiento_con_afluencia; contexto para movilidad y cuidado",
+        "tipo_web": "servicio_campus",
+        "estado_web": "PUBLICO",
+        "razon": "equipamiento/servicio institucional público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 47.19,
+        "conector": "alta_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88407217354089,
+          19.491070896872746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 20,
+        "nombre": "CAMPO EXPERIMENTAL",
+        "categoria_src": "borde_campus_o_area_productiva",
+        "uso_src": "bordes_y_areas_de_baja_afluencia_para_contexto",
+        "tipo_web": "borde_contexto",
+        "estado_web": "PUBLICO_CONTEXTO",
+        "razon": "borde/equipamiento contextual, no punto de cuidado",
+        "en_campus": "no",
+        "zona_base": "fuera_zonas_base",
+        "dist_via_m": 12.57,
+        "conector": "alta_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.87412325456951,
+          19.487924821324032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 22,
+        "nombre": "RECTORIA",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 406.03,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88904526934365,
+          19.49209805315036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 23,
+        "nombre": "DIMA",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 555.66,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89216621348474,
+          19.491148304899077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 24,
+        "nombre": "CANCHAS TECHADAS",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 139.7,
+        "conector": "media_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89349125076984,
+          19.49511634160169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 25,
+        "nombre": "AGROINDUSTRIAS",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 278,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88958037527269,
+          19.493341382748135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 28,
+        "nombre": "PALAPAS DE PARASITOLOGIA",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 107.18,
+        "conector": "media_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88506533238179,
+          19.4942960224545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 29,
+        "nombre": "MUSEO NACIONAL DE AGRICULTURA",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 397.17,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88917283463425,
+          19.49219552904613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 31,
+        "nombre": "PUENTE PEATONAL",
+        "categoria_src": "movilidad_acceso_conexion",
+        "uso_src": "accesos_y_conectores_para_analisis_de_movilidad",
+        "tipo_web": "acceso_movilidad",
+        "estado_web": "PUBLICO",
+        "razon": "nodo de orientación/movilidad, no ruta segura",
+        "en_campus": "no",
+        "zona_base": "fuera_zonas_base",
+        "dist_via_m": 1.2,
+        "conector": "alta_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88300015429346,
+          19.490585914263285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 32,
+        "nombre": "EDIFICIO DE INGENIERIAS",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 449.94,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89358280499455,
+          19.49020992449617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 33,
+        "nombre": "UNIDAD EXPERIMENTAL DE MECANICA",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 439.63,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89338276872436,
+          19.491389521660157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 34,
+        "nombre": "MAQUINARIA AGRICOLA",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 528.54,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89255705573085,
+          19.4912032973964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 35,
+        "nombre": "IRRIGACION",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 407.42,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89004015370995,
+          19.49222278532273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 36,
+        "nombre": "RANCHO",
+        "categoria_src": "borde_campus_o_area_productiva",
+        "uso_src": "bordes_y_areas_de_baja_afluencia_para_contexto",
+        "tipo_web": "borde_contexto",
+        "estado_web": "PUBLICO_CONTEXTO",
+        "razon": "borde/equipamiento contextual, no punto de cuidado",
+        "en_campus": "no",
+        "zona_base": "fuera_zonas_base",
+        "dist_via_m": 71.72,
+        "conector": "alta_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88311844488656,
+          19.494214965463687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 37,
+        "nombre": "BIBLIOTECA CENTRAL",
+        "categoria_src": "servicio_equipamiento_campus",
+        "uso_src": "equipamiento_con_afluencia; contexto para movilidad y cuidado",
+        "tipo_web": "servicio_campus",
+        "estado_web": "PUBLICO",
+        "razon": "equipamiento/servicio institucional público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 264.68,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.8875306378608,
+          19.490800372379123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 38,
+        "nombre": "SOCIOLOGIA RURAL",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 276.82,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88735977178955,
+          19.48978073768066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 39,
+        "nombre": "DEPARTAMENTO DE AGROECOLOGIA",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 345.12,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88817394989876,
+          19.49006412873857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 40,
+        "nombre": "PREPARATORIA AGRICOLA AULAS",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 387.84,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88825580393153,
+          19.489241637865874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 41,
+        "nombre": "BIBLIOTECA DE DICEA",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 230.23,
+        "conector": "media_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88692717644028,
+          19.489906344782938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 42,
+        "nombre": "BIBLIOTECA PREPARATORIA AGRICOLA",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 499.15,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88944345939193,
+          19.48928248339271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 43,
+        "nombre": "INVERNADERO DE SUELOS",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "borde_contexto",
+        "estado_web": "PUBLICO_CONTEXTO",
+        "razon": "borde/equipamiento contextual, no punto de cuidado",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 434.88,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88899693752414,
+          19.48984308786977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 44,
+        "nombre": "TALLERES CULTURALES",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 556.44,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89026673964781,
+          19.490249865278518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 45,
+        "nombre": "INVERNADERO DE PLANTAS TROPICALES",
+        "categoria_src": "borde_campus_o_area_productiva",
+        "uso_src": "bordes_y_areas_de_baja_afluencia_para_contexto",
+        "tipo_web": "borde_contexto",
+        "estado_web": "PUBLICO_CONTEXTO",
+        "razon": "borde/equipamiento contextual, no punto de cuidado",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 497.04,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88964092542118,
+          19.489970543755256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 46,
+        "nombre": "EDIFICIO PRINCIPAL DE PREPARATORIA AGRICOLA",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 431.98,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88907786228583,
+          19.490312568124175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 47,
+        "nombre": "AUDITORIO PRINCIPAL",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 507.11,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88982749694729,
+          19.4905420442684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 48,
+        "nombre": "POSGRADO ZOOTECNIA",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 615.69,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89070664236209,
+          19.489582749451856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 49,
+        "nombre": "CENTRO DE LENGUAS",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 640.38,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89137083330498,
+          19.49027116995615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 50,
+        "nombre": "CUBICULOS POSGRADO DE ZOOTECNIA",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 639.14,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89103002865784,
+          19.49003373873421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 51,
+        "nombre": "LABORATORIO DE POSGRADO ZOOTECNIA",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 676.36,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89144540079936,
+          19.489896118739182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 53,
+        "nombre": "ALMACEN GENERAL",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 583.18,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89212490495574,
+          19.490822323842448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 54,
+        "nombre": "ZOOTECNIA",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 608.33,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.8921035359942,
+          19.489923960083445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 55,
+        "nombre": "CENTRO DE COMPUTO ZOOTECNIA",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 548.94,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89250626177837,
+          19.490645060379887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 56,
+        "nombre": "LABORATORIO DE FÍSICA Y MÉCANICA DE SUELOS",
+        "categoria_src": "edificio_academico_laboratorio",
+        "uso_src": "referencia_interna_para_horarios_nocturnos_y_permanencia",
+        "tipo_web": "edificio_academico",
+        "estado_web": "PUBLICO",
+        "razon": "edificio académico público/contextual",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 509.31,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89274205009289,
+          19.4912232967238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 58,
+        "nombre": "INGENIERIA MECANICA AGRICOLA",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 526.41,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89111392733444,
+          19.4912776331248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 59,
+        "nombre": "OFICINAS HCU",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 557.88,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89113546159567,
+          19.49099338715737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 60,
+        "nombre": "TALLER DE VEHICULOS OFICIALES",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 496.35,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89234514657375,
+          19.49171459796859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 61,
+        "nombre": "AREA DE PROCESOS DE MANUFACTURA",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 459.01,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.8922821063796,
+          19.492046919589864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 62,
+        "nombre": "CONTROL DE VEHICULOS",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 426.37,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89261666750662,
+          19.49239111604657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 63,
+        "nombre": "MODULO DE ACOPIO",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 391.9,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89372372428221,
+          19.49181291109311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 64,
+        "nombre": "PLANTA DE TRATAMIENTO DE AGUAS NEGRAS",
+        "categoria_src": "borde_campus_o_area_productiva",
+        "uso_src": "bordes_y_areas_de_baja_afluencia_para_contexto",
+        "tipo_web": "borde_contexto",
+        "estado_web": "PUBLICO_CONTEXTO",
+        "razon": "borde/equipamiento contextual, no punto de cuidado",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 454.35,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89312381714163,
+          19.49174555106231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 65,
+        "nombre": "ASERRADERO",
+        "categoria_src": "borde_campus_o_area_productiva",
+        "uso_src": "bordes_y_areas_de_baja_afluencia_para_contexto",
+        "tipo_web": "borde_contexto",
+        "estado_web": "PUBLICO_CONTEXTO",
+        "razon": "borde/equipamiento contextual, no punto de cuidado",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 340.86,
+        "conector": "baja_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89401756564911,
+          19.49247943608787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 66,
+        "nombre": "JURASICO",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 245.79,
+        "conector": "media_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88669148088799,
+          19.493252568808526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 67,
+        "nombre": "INVERNADEROS",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "borde_contexto",
+        "estado_web": "PUBLICO_CONTEXTO",
+        "razon": "borde/equipamiento contextual, no punto de cuidado",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 188.4,
+        "conector": "media_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88645678660863,
+          19.493744493921227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 68,
+        "nombre": "AUDIORAMA",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 184.36,
+        "conector": "media_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88555074243718,
+          19.492506321095277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 69,
+        "nombre": "RADIO CHAPINGO",
+        "categoria_src": "punto_referencia_campus",
+        "uso_src": "referencia_espacial_para_orientacion",
+        "tipo_web": "referencia_campus",
+        "estado_web": "PUBLICO",
+        "razon": "referencia pública de orientación",
+        "en_campus": "si",
+        "zona_base": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "dist_via_m": 89.22,
+        "conector": "media_confianza_visual",
+        "fuente": "04_puntos_referencia_curados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88379165853233,
+          19.48968793174921
+        ]
+      }
+    }
+  ]
+}

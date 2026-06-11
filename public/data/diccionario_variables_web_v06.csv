@@ -1,0 +1,10 @@
+variable,tipo,descripcion
+zona,string,Unidad de agregación territorial; evita publicar puntos sensibles exactos.
+pct_alerta,float/string,Porcentaje piloto de respuestas alerta+evita por zona.
+nivel,string,Nivel piloto/agregado de prioridad. No es riesgo absoluto.
+score,float/string,Score piloto o integrado si existe en la capa base.
+categoria,string,"Tipo de nodo: percepción, trayecto, factor, recurso, caso documentado, establecimiento, legal, estadística."
+nivel_uso,string,"PUBLICO_AGREGADO, PUBLICO_CONTEXTUAL, REVISION_CONTROLADA, NO_PUBLICAR_SENSIBLE, DOCUMENTACION."
+publicable,si/no,Indica si puede entrar al prototipo público.
+precision,string,centroide_zona_offset o sin_geometria_tabla; evita falsa precisión.
+etica,string,Regla de publicación y cuidado asociada al registro.

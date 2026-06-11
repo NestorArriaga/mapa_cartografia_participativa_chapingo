@@ -1,0 +1,48 @@
+[
+  {
+    "id": "test_01",
+    "fragment": "Camino de noche hacia Salitrería y siempre está oscurísimo, me da miedo porque no hay luz ni patrullas, y a veces tengo que tomar mototaxi sola.",
+    "factors": [
+      "luz",
+      "sola",
+      "mototaxi",
+      "miedo"
+    ],
+    "date": "2026-03-01"
+  },
+  {
+    "id": "test_02",
+    "fragment": "En las cabañas y el cooperativo hay mucha soledad por las tardes. Faltan puntos de apoyo informal.",
+    "factors": [
+      "soledad",
+      "apoyo informal"
+    ],
+    "date": "2026-03-15"
+  },
+  {
+    "id": "test_03",
+    "fragment": "El tramo del ISSSTE a Chapingo tiene el acceso cerrado a veces y nos obliga a buscar rutas alternas oscuras.",
+    "factors": [
+      "acceso cerrado"
+    ],
+    "date": "2026-04-02"
+  },
+  {
+    "id": "test_04",
+    "fragment": "Existe evidencia testimonial sobre soledad, baja iluminación y baja presencia de acompañamiento en el trayecto hacia Boyeros. La muestra estructurada es pequeña, pero la señal territorial es relevante.",
+    "factors": [
+      "iluminación",
+      "soledad",
+      "acompañamiento"
+    ],
+    "date": "2026-04-10"
+  },
+  {
+    "id": "test_05",
+    "fragment": "Cerca de DICIFO yendo a Boyeros se siente muy solo en la tarde-noche, la iluminación es pésima y no hay seguridad.",
+    "factors": [
+      "iluminación"
+    ],
+    "date": "2026-04-12"
+  }
+]

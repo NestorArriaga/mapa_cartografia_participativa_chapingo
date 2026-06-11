@@ -1,0 +1,164 @@
+{
+  "project": "Cartografía participativa ecofeminista UACh-Texcoco",
+  "version": "v06",
+  "date": "2026-06-10T12:41:56.620262",
+  "crs_web": "EPSG:4326",
+  "principle": "máxima información conservada; publicación por niveles; nodos agregados, no puntos sensibles exactos",
+  "folders": {
+    "public_core": "01_web_publico_core",
+    "public_nodes": "02_web_publico_nodos",
+    "public_mobility_context": "03_web_contexto_movilidad",
+    "controlled_review": "04_revision_controlada",
+    "do_not_publish_sensitive": "05_no_publicar_sensible",
+    "documentation": "06_manifest_documentacion"
+  },
+  "layers": [
+    {
+      "layer_id": "zonas_prioridad_integrada_o_indicadores_v06",
+      "archivo_geojson": "/Users/nestorarriagagallegos/Desktop/chapingo_web_v06_final_nodos_integrados_20260610_123131/01_web_publico_core/zonas_prioridad_integrada_o_indicadores_v06.geojson",
+      "estado": "PUBLICO_AGREGADO",
+      "uso": "Capa central de zonas con percepción/prioridad; no riesgo absoluto.",
+      "features": 5,
+      "geom": "polygon",
+      "public_web": "si",
+      "gpkg_ok": true,
+      "geojson_ok": true,
+      "mensaje": ""
+    },
+    {
+      "layer_id": "evidencia_documental_agregada_por_zona_v06",
+      "archivo_geojson": "/Users/nestorarriagagallegos/Desktop/chapingo_web_v06_final_nodos_integrados_20260610_123131/01_web_publico_core/evidencia_documental_agregada_por_zona_v06.geojson",
+      "estado": "PUBLICO_AGREGADO_CONTROLADO",
+      "uso": "Evidencia documental agregada; no puntos exactos.",
+      "features": 27,
+      "geom": "polygon",
+      "public_web": "si",
+      "gpkg_ok": true,
+      "geojson_ok": true,
+      "mensaje": ""
+    },
+    {
+      "layer_id": "nodos_documentales_publicos_agregados_v06",
+      "archivo_geojson": "/Users/nestorarriagagallegos/Desktop/chapingo_web_v06_final_nodos_integrados_20260610_123131/02_web_publico_nodos/nodos_documentales_publicos_agregados_v06.geojson",
+      "estado": "PUBLICO_AGREGADO",
+      "uso": "Nodos informativos aproximados por zona: percepción, trayectos, recursos, memoria agregada.",
+      "features": 20,
+      "geom": "point",
+      "public_web": "si",
+      "gpkg_ok": true,
+      "geojson_ok": true,
+      "mensaje": ""
+    },
+    {
+      "layer_id": "nodos_documentales_revision_v06",
+      "archivo_geojson": "/Users/nestorarriagagallegos/Desktop/chapingo_web_v06_final_nodos_integrados_20260610_123131/04_revision_controlada/nodos_documentales_revision_v06.geojson",
+      "estado": "REVISION_CONTROLADA",
+      "uso": "Nodos con georreferencia aproximada para revisión; no publicar sin validación.",
+      "features": 5,
+      "geom": "point",
+      "public_web": "no",
+      "gpkg_ok": true,
+      "geojson_ok": true,
+      "mensaje": ""
+    },
+    {
+      "layer_id": "nodos_documentales_NO_PUBLICAR_v06",
+      "archivo_geojson": "/Users/nestorarriagagallegos/Desktop/chapingo_web_v06_final_nodos_integrados_20260610_123131/05_no_publicar_sensible/nodos_documentales_NO_PUBLICAR_v06.geojson",
+      "estado": "NO_PUBLICAR_SENSIBLE",
+      "uso": "Temas sensibles conservados sólo para control interno.",
+      "features": 3,
+      "geom": "point",
+      "public_web": "no",
+      "gpkg_ok": true,
+      "geojson_ok": true,
+      "mensaje": ""
+    },
+    {
+      "layer_id": "nodos_orientacion_base_v06",
+      "archivo_geojson": "/Users/nestorarriagagallegos/Desktop/chapingo_web_v06_final_nodos_integrados_20260610_123131/02_web_publico_nodos/nodos_orientacion_base_v06.geojson",
+      "estado": "PUBLICO_ORIENTACION",
+      "uso": "Puntos de orientación territorial; no son puntos seguros.",
+      "features": 60,
+      "geom": "point",
+      "public_web": "si",
+      "gpkg_ok": true,
+      "geojson_ok": true,
+      "mensaje": ""
+    },
+    {
+      "layer_id": "vias_contexto_movilidad_v06",
+      "archivo_geojson": "/Users/nestorarriagagallegos/Desktop/chapingo_web_v06_final_nodos_integrados_20260610_123131/03_web_contexto_movilidad/vias_contexto_movilidad_v06.geojson",
+      "estado": "PUBLICO_CONTEXTUAL",
+      "uso": "Vías de contexto de movilidad; no explican por sí solas alerta/miedo.",
+      "features": 4349691,
+      "geom": "line",
+      "public_web": "si",
+      "gpkg_ok": true,
+      "geojson_ok": true,
+      "mensaje": ""
+    },
+    {
+      "layer_id": "conectores_visualizacion_v06",
+      "archivo_geojson": "/Users/nestorarriagagallegos/Desktop/chapingo_web_v06_final_nodos_integrados_20260610_123131/03_web_contexto_movilidad/conectores_visualizacion_v06.geojson",
+      "estado": "PUBLICO_CONTEXTUAL_O_REVISION",
+      "uso": "Conectores visuales; no rutas caminadas ni rutas seguras.",
+      "features": 5,
+      "geom": "line",
+      "public_web": "si",
+      "gpkg_ok": true,
+      "geojson_ok": true,
+      "mensaje": ""
+    },
+    {
+      "layer_id": "nodos_revision_sensible_base_v06",
+      "archivo_geojson": "/Users/nestorarriagagallegos/Desktop/chapingo_web_v06_final_nodos_integrados_20260610_123131/05_no_publicar_sensible/nodos_revision_sensible_base_v06.geojson",
+      "estado": "NO_PUBLICAR_O_REVISION",
+      "uso": "Puntos de revisión/sensibilidad desde base previa.",
+      "features": 18,
+      "geom": "point",
+      "public_web": "no",
+      "gpkg_ok": true,
+      "geojson_ok": true,
+      "mensaje": ""
+    }
+  ],
+  "recommended_frontend_groups": [
+    {
+      "group": "Prioridad integrada por zonas",
+      "layers": [
+        "zonas_prioridad_integrada_o_indicadores_v06"
+      ],
+      "default_visible": true
+    },
+    {
+      "group": "Nodos de evidencia y recursos",
+      "layers": [
+        "nodos_documentales_publicos_agregados_v06",
+        "nodos_orientacion_base_v06"
+      ],
+      "default_visible": true
+    },
+    {
+      "group": "Movilidad y contexto",
+      "layers": [
+        "vias_contexto_movilidad_v06",
+        "conectores_visualizacion_v06"
+      ],
+      "default_visible": false
+    },
+    {
+      "group": "Evidencia documental agregada",
+      "layers": [
+        "evidencia_documental_agregada_por_zona_v06"
+      ],
+      "default_visible": false
+    }
+  ],
+  "ethics": [
+    "No llamar riesgo absoluto a la prioridad integrada.",
+    "No publicar internado, residencias, baños, casas/cuartos, apoyos informales ni relatos crudos como puntos exactos.",
+    "Los nodos documentales públicos están desplazados por zona; no representan coordenadas exactas.",
+    "Comercios, bares, DENUE, botones de ayuda y ruta segura requieren validación antes de presentarse como recursos o problemas.",
+    "Los conectores son visuales, no rutas caminadas ni recomendaciones de traslado."
+  ]
+}

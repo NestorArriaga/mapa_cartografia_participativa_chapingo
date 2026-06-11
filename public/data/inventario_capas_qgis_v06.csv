@@ -1,0 +1,71 @@
+layer_name,type,geom,crs,feature_count,source
+00_zonas_indicadores_o_movilidad_web_v02,vector,polygon,EPSG:32614,5,Polygon?crs=EPSG:32614&uid={f7501da3-d281-4d75-8a0c-4ecfeb7f325e}
+01_campus_chapingo_interpretado,vector,polygon,EPSG:32614,1,/Users/nestorarriagagallegos/Desktop/chapingo_base_trabajo_v01_20260610_102427/chapingo_base_trabajo_v01.gpkg|layername=01_campus_chapingo_interpretado
+01_vias_contexto_web_v02,vector,line,EPSG:32614,686,LineString?crs=EPSG:32614&uid={2cee070b-a9ec-4b28-ba9f-46d9fe2a4014}
+01_vias_contexto_web_v03,vector,line,EPSG:32614,686,LineString?crs=EPSG:32614&uid={743a385b-7f59-4378-8f12-175b6c80d8b6}
+02_nodos_orientacion_web_v03,vector,point,EPSG:32614,60,Point?crs=EPSG:32614&uid={0324a621-8282-43bf-a468-5e94a50787d0}
+02_nodos_publicables_web_v02,vector,point,EPSG:32614,60,Point?crs=EPSG:32614&uid={8469ecf0-c7f0-426e-a2dc-8b041603f5ed}
+02_zonas_movilidad_vivida,vector,polygon,EPSG:32614,4,/Users/nestorarriagagallegos/Desktop/chapingo_base_trabajo_v01_20260610_102427/chapingo_base_trabajo_v01.gpkg|layername=02_zonas_movilidad_vivida
+03_conectores_accesos_vias_web_v03,vector,line,EPSG:32614,5,LineString?crs=EPSG:32614&uid={6e904170-f3ae-44f9-b469-7f39a2b4afed}
+03_conectores_nodo_via_web_v02,vector,line,EPSG:32614,60,LineString?crs=EPSG:32614&uid={9c065bb3-5f7f-4186-9aeb-fe1fe61a4d87}
+03_radio_control_2164m,vector,polygon,EPSG:32614,1,/Users/nestorarriagagallegos/Desktop/chapingo_base_trabajo_v01_20260610_102427/chapingo_base_trabajo_v01.gpkg|layername=03_radio_control_2164m
+04_puntos_referencia_curados,vector,point,EPSG:32614,73,/Users/nestorarriagagallegos/Desktop/chapingo_base_trabajo_v01_20260610_102427/chapingo_base_trabajo_v01.gpkg|layername=04_puntos_referencia_curados
+05_puntos_revision_sensible,vector,point,EPSG:32614,18,/Users/nestorarriagagallegos/Desktop/chapingo_base_trabajo_v01_20260610_102427/chapingo_base_trabajo_v01.gpkg|layername=05_puntos_revision_sensible
+06_zonas_indicadores_participativos_piloto,vector,polygon,EPSG:32614,5,/Users/nestorarriagagallegos/Desktop/chapingo_integracion_forms_piloto_20260610_104914/chapingo_forms_integrados_piloto_v01.gpkg|layername=06_zonas_indicadores_participativos_piloto
+07_conectores_nodo_via_web,vector,line,EPSG:32614,0,LineString?crs=EPSG:32614&uid={2053c6cf-2937-41a8-8f6b-6f8039479fb7}
+07_nodos_publicables_web,vector,point,EPSG:32614,0,Point?crs=EPSG:32614&uid={a8f365d5-91f2-444f-892f-bbf65ee8f2b3}
+07_nodos_revision_sensible_NO_PUBLICAR,vector,point,EPSG:32614,73,Point?crs=EPSG:32614&uid={3b5cc23e-6692-403e-949e-5fcadc06bb14}
+07_vias_contexto_web,vector,line,EPSG:32614,686,LineString?crs=EPSG:32614&uid={cf90e4dd-e4fc-49e2-9dc6-7e2719b25dd3}
+07_zonas_indicadores_web,vector,polygon,EPSG:32614,5,Polygon?crs=EPSG:32614&uid={559cdfc0-39e8-4949-8518-c67c81688989}
+15a,vector,polygon,,4375,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15a.shp
+15ar,vector,polygon,,418,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15ar.shp
+15as,vector,polygon,EPSG:6372,917,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163078_s/15_mexico/conjunto_de_datos/15as.shp
+15cd,vector,point,,4366,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15cd.shp
+15e,vector,line,,623643,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15e.shp
+15ent,vector,polygon,,1,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15ent.shp
+15fm,vector,line,,1157217,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15fm.shp
+15l,vector,polygon,,2944,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15l.shp
+15lpr,vector,point,,4585,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15lpr.shp
+15m,vector,polygon,,169142,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15m.shp
+15mun,vector,polygon,,125,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15mun.shp
+15pe,vector,polygon,,4026,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15pe.shp
+15pem,vector,polygon,,340,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15pem.shp
+15sia,vector,polygon,,16580,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15sia.shp
+15sil,vector,line,,63562,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15sil.shp
+15sip,vector,point,,28527,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163061_s/15_mexico/conjunto_de_datos/15sip.shp
+90_nodos_sensibles_NO_PUBLICAR_v02,vector,point,EPSG:32614,7,Point?crs=EPSG:32614&uid={92aaaf53-7448-4fa1-bf6e-3b26d4b68109}
+90_nodos_sensibles_NO_PUBLICAR_v03,vector,point,EPSG:32614,7,Point?crs=EPSG:32614&uid={d2865c7b-ac3d-419c-a13a-bc83bcebd35b}
+92_nodos_revision_NO_PUBLICAR_v02,vector,point,EPSG:32614,6,Point?crs=EPSG:32614&uid={4363fa71-4617-429b-8cb1-5a05609b92d8}
+92_nodos_revision_NO_PUBLICAR_v03,vector,point,EPSG:32614,6,Point?crs=EPSG:32614&uid={42274c9c-dd97-4bfe-8e0c-a52977abc553}
+93_conectores_revision_NO_PUBLICAR_v02,vector,line,EPSG:32614,6,LineString?crs=EPSG:32614&uid={832cf830-bc3a-40d4-b229-2cd2571b7a37}
+93_conectores_revision_NO_PUBLICAR_v03,vector,line,EPSG:32614,6,LineString?crs=EPSG:32614&uid={a7e33445-623d-4bb3-9420-e0a8cc199044}
+94_conectores_descartados_QA_v03,vector,line,EPSG:32614,62,LineString?crs=EPSG:32614&uid={a54fceb1-bf02-4b78-9ac7-a756012f730b}
+94_denue_actividad_urbana_revision_denue_inegi_11,vector,point,EPSG:32614,1,Point?crs=EPSG:32614&uid={a17245ca-ce0e-4c12-8ec1-fbb3d283da56}
+Bing Satellite,raster/other,no_vector,EPSG:3857,,type=xyz&zmin=1&zmax=18&url=https://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g%3D0%26dir%3Ddir_n'
+CHAPINGO,vector,point,EPSG:4326,73,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/CHAPINGO.kmz|layername=CHAPINGO|geometrytype=Point25D
+CHAPINGO,vector,polygon,EPSG:4326,5,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/CHAPINGO.kmz|layername=CHAPINGO|geometrytype=Polygon25D
+aoi_00_centroide_control_chapingo,vector,point,EPSG:32614,1,Point?crs=EPSG:32614&uid={64df0faf-85d2-4264-8fe5-52679a76e918}
+aoi_01_campus_chapingo_interpretado_googleearth,vector,polygon,EPSG:32614,1,MultiPolygon?crs=EPSG:32614&uid={cf768842-4725-40a7-b803-5282a7919b9c}
+aoi_02_radio_2164m_desde_campus,vector,polygon,EPSG:32614,1,MultiPolygon?crs=EPSG:32614&uid={0075fa07-f281-4483-8ffa-9f81cc9764b0}
+aoi_campus_chapingo_interpretado_googleearth_CONTROL,vector,polygon,EPSG:4326,1,Polygon?crs=EPSG:4326&uid={81f9229c-b954-4556-bbfb-fd3698e86bcb}
+aoi_radio_2164m_desde_campus_CONTROL,vector,polygon,EPSG:4326,1,Polygon?crs=EPSG:4326&uid={416b380d-1c4f-43a7-822f-48b52d6f9e0b}
+colonias,vector,polygon,EPSG:32614,24,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/colonias.geojson
+denue_inegi_11_,vector,point,OGC:CRS84,11858,/Users/nestorarriagagallegos/Documents/MAPPING/CIHEAM/BASE/INSUMOS/DENUE2/denue_00_11_1124_shp/conjunto_de_datos/denue_inegi_11_.shp
+rnc2025 — estructura,vector,point,EPSG:6365,18451,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=estructura
+evidencia_documental_por_zona_v05,vector,polygon,EPSG:32614,27,Polygon?crs=EPSG:32614&uid={5b5b017b-5b5e-4f4c-aff9-2d1b1a232a1d}
+rnc2025 — localidad,vector,point,EPSG:6365,295211,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=localidad
+rnc2025 — maniobra_prohibida,vector,line,EPSG:6365,38474,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=maniobra_prohibida
+rnc2025 — plaza_cobro,vector,point,EPSG:6365,1376,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=plaza_cobro
+rnc2025 — poste_de_referencia,vector,point,EPSG:6365,46289,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=poste_de_referencia
+rnc2025 — puente,vector,point,EPSG:6365,13395,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=puente
+puntos_fuera_campus_dentro_radio_CONTROL,vector,point,EPSG:4326,9,Point?crs=EPSG:4326&uid={e21c30d1-9742-41da-bc96-2c5254ac68b3}
+puntos_referencia_kmz_chapingo_CONTROL,vector,point,EPSG:4326,74,Point?crs=EPSG:4326&uid={cd9f0914-09e5-4816-8417-7cdc685336e4}
+rnc2025 — red_vial,vector,line,EPSG:6365,4349691,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=red_vial
+rnc2025 — sitio_de_interes,vector,point,EPSG:6365,28941,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=sitio_de_interes
+rnc2025 — tarifas,vector,unknown,,2223,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=tarifas
+rnc2025 — transbordador,vector,line,EPSG:6365,62,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=transbordador
+rnc2025 — tred_localidad,vector,unknown,,306012,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=tred_localidad
+rnc2025 — tred_sitio_de_interes,vector,unknown,,32721,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=tred_sitio_de_interes
+rnc2025 — union_p,vector,point,EPSG:6365,3343663,/Users/nestorarriagagallegos/Documents/ProjectsHub/ECOFEMINISMO/794551163030_gpk/conjunto_de_datos/rnc2025.gpkg|layername=union_p
+zonas_etiquetadas_kmz_chapingo_CONTROL,vector,polygon,EPSG:4326,5,Polygon?crs=EPSG:4326&uid={f39ac056-5dd8-46af-8cdb-a8d53bab160e}
+zonas_prioridad_integrada_v05,vector,polygon,EPSG:32614,5,Polygon?crs=EPSG:32614&uid={2665fdea-a9e0-482e-946e-f89bf7f4d923}

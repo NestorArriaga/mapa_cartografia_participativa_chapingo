@@ -1,0 +1,63 @@
+:root {
+  --font-title: "Space Grotesk", "Sora", system-ui, sans-serif;
+  --font-ui: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+.mv-panel {
+  background: linear-gradient(180deg, rgba(3,7,18,0.92), rgba(5,8,12,0.86));
+  backdrop-filter: blur(18px) saturate(1.15);
+  -webkit-backdrop-filter: blur(18px) saturate(1.15);
+  border: 1px solid rgba(214,168,58,0.28);
+  box-shadow:
+    0 28px 90px rgba(0,0,0,0.48),
+    inset 0 1px 0 rgba(255,255,255,0.07);
+  border-radius: 26px;
+}
+
+.mv-panel-readable {
+  background: rgba(3,7,18,0.94);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(244,247,251,0.12);
+}
+
+.mv-section-title {
+  color: #D6A83A;
+  font-family: var(--font-title);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 11px;
+}
+
+.mv-body-text {
+  color: rgba(244,247,251,0.82);
+  line-height: 1.55;
+  font-family: var(--font-ui);
+}
+
+.mv-action-primary {
+  background: linear-gradient(135deg, #F43F9D 0%, #D6A83A 50%, #35D07F 100%);
+  color: #030712;
+  font-weight: 800;
+  box-shadow: 0 10px 34px rgba(244,63,157,0.28);
+  font-family: var(--font-ui);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mv-action-primary:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.mv-map-readability-overlay {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(3,7,18,0.42) 0%, transparent 22%, transparent 78%, rgba(3,7,18,0.42) 100%),
+    linear-gradient(180deg, rgba(3,7,18,0.20) 0%, transparent 30%, rgba(3,7,18,0.24) 100%);
+  z-index: 2;
+}

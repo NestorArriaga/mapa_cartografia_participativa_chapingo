@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-10T19:52:33.402Z",
+  "status": "PASS",
+  "sensitiveFilesInPublic": [],
+  "sensitiveFeaturesInPublic": [],
+  "sensitivePropertiesFound": [],
+  "totalGeoJsonScanned": 0,
+  "totalFeaturesScanned": 0,
+  "summary": "No se encontraron problemas de privacidad. Todos los datos públicos son seguros."
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "zoneName": "UNIVERSIDAD AUTONOMA CHAPINGO",
+    "signalType": "qualitative_testimony",
+    "intensity": 40,
+    "confidence": "media",
+    "visibility": "public",
+    "title": "Presencia de dinámicas de acompañamiento en campus",
+    "summary": "Comentarios en campus señalan buena visibilidad diurna pero retos en áreas periféricas e inter-facultades durante horario vespertino.",
+    "ethicalNote": "Sanitizado para uso público agregando datos por cuadrante.",
+    "factors": [
+      "iluminación",
+      "acompañamiento"
+    ]
+  },
+  {
+    "zoneName": "SALITRERIA",
+    "signalType": "qualitative_testimony",
+    "intensity": 80,
+    "confidence": "alta",
+    "visibility": "academic_aggregated",
+    "title": "Percepciones de soledad y deficiencia de alumbrado en Salitrería",
+    "summary": "Señalamientos constantes de baja iluminación en vialidades secundarias y alta dependencia de transporte informal (mototaxis) en horarios nocturnos.",
+    "ethicalNote": "Señales agregadas sin detalles específicos de viviendas.",
+    "factors": [
+      "iluminación",
+      "luz",
+      "soledad",
+      "transporte",
+      "mototaxi"
+    ]
+  },
+  {
+    "zoneName": "COOPERATIVO/CABAÑAS",
+    "signalType": "qualitative_testimony",
+    "intensity": 65,
+    "confidence": "media",
+    "visibility": "academic_aggregated",
+    "title": "Soledad vespertina en Cooperativo/Cabañas",
+    "summary": "Reportes recurrentes sobre soledad en áreas arboladas y necesidad de fortalecer redes de apoyo y acompañamiento comunitario.",
+    "ethicalNote": "Protegido como agregado por zona.",
+    "factors": [
+      "soledad",
+      "apoyo informal"
+    ]
+  },
+  {
+    "zoneName": "TRAMO ISSSTE - CHAPINGO",
+    "signalType": "qualitative_testimony",
+    "intensity": 75,
+    "confidence": "alta",
+    "visibility": "academic_aggregated",
+    "title": "Cierres de acceso e iluminación deficiente en tramo ISSSTE",
+    "summary": "Preocupación por cierres de accesos peatonales tradicionales que obligan a desvíos por zonas de baja iluminación y alto tránsito de vehículos pesados.",
+    "ethicalNote": "Ubicaciones exactas omitidas para resguardo de usuarias.",
+    "factors": [
+      "iluminación",
+      "acceso cerrado",
+      "ruta evitada"
+    ]
+  },
+  {
+    "zoneName": "Boyeros",
+    "signalType": "qualitative_testimony",
+    "intensity": 80,
+    "confidence": "baja",
+    "visibility": "academic_aggregated",
+    "title": "Trayecto DICIFO–Boyeros requiere validación",
+    "summary": "Existe evidencia testimonial sobre soledad, baja iluminación y baja presencia de acompañamiento en el trayecto hacia Boyeros. La muestra estructurada es pequeña, pero la señal territorial es relevante para validación participativa.",
+    "ethicalNote": "Se muestra como señal cualitativa agregada; no representa punto exacto ni riesgo absoluto.",
+    "factors": [
+      "soledad",
+      "iluminación",
+      "acompañamiento"
+    ]
+  }
+]

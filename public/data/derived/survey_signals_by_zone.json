@@ -1,0 +1,57 @@
+[
+  {
+    "zoneId": "zone_chapingo",
+    "zoneName": "UNIVERSIDAD AUTONOMA CHAPINGO",
+    "respondents": 154,
+    "score": 2.1,
+    "confidence": "alta",
+    "iluminacionScore": 3.2,
+    "acompanamientoScore": 2.4,
+    "infraestructuraScore": 3.8,
+    "transporteScore": 4.1
+  },
+  {
+    "zoneId": "zone_salitreria",
+    "zoneName": "SALITRERIA",
+    "respondents": 24,
+    "score": 3.17,
+    "confidence": "media",
+    "iluminacionScore": 1.5,
+    "acompanamientoScore": 1.8,
+    "infraestructuraScore": 2.1,
+    "transporteScore": 2.3
+  },
+  {
+    "zoneId": "zone_cooperativo",
+    "zoneName": "COOPERATIVO/CABAÑAS",
+    "respondents": 21,
+    "score": 2.91,
+    "confidence": "media",
+    "iluminacionScore": 2,
+    "acompanamientoScore": 1.9,
+    "infraestructuraScore": 2.5,
+    "transporteScore": 3
+  },
+  {
+    "zoneId": "zone_issste",
+    "zoneName": "TRAMO ISSSTE - CHAPINGO",
+    "respondents": 37,
+    "score": 2.46,
+    "confidence": "alta",
+    "iluminacionScore": 1.8,
+    "acompanamientoScore": 2.2,
+    "infraestructuraScore": 2,
+    "transporteScore": 2.8
+  },
+  {
+    "zoneId": "zone_boyeros",
+    "zoneName": "BOYEROS",
+    "respondents": 2,
+    "score": 1.5,
+    "confidence": "baja",
+    "iluminacionScore": 1.2,
+    "acompanamientoScore": 1,
+    "infraestructuraScore": 1.5,
+    "transporteScore": 1.8
+  }
+]

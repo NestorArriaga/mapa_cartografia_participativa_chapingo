@@ -1,0 +1,142 @@
+{
+  "type": "FeatureCollection",
+  "name": "conectores_visualizacion_v06",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 3,
+        "nombre": "ENTRADA PRINCIPAL AL CAMPUS",
+        "tipo_web": "acceso_movilidad",
+        "estado_web": "PUBLICO",
+        "dist_m": 6.23,
+        "confianza": "alta",
+        "publicable": "si",
+        "nota": "Conector visual de acceso a red vial. No ruta segura."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88502922307092,
+            19.49086685557748
+          ],
+          [
+            -98.8850103112822,
+            19.490920188688396
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 13,
+        "nombre": "TERMINAL - SALA DE ESTUDIOS",
+        "tipo_web": "acceso_movilidad",
+        "estado_web": "PUBLICO",
+        "dist_m": 92.32,
+        "confianza": "media",
+        "publicable": "si",
+        "nota": "Conector visual de acceso a red vial. No ruta segura."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88760678461509,
+            19.494772081548465
+          ],
+          [
+            -98.88748682265489,
+            19.495598559830587
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 14,
+        "nombre": "ENTRADA FITOTECNIA",
+        "tipo_web": "acceso_movilidad",
+        "estado_web": "PUBLICO",
+        "dist_m": 23.35,
+        "confianza": "alta",
+        "publicable": "si",
+        "nota": "Conector visual de acceso a red vial. No ruta segura."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88734785266215,
+            19.495368692415067
+          ],
+          [
+            -98.88732022573033,
+            19.4955780541354
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 16,
+        "nombre": "ENTRADA DE \"EL GALLO\"",
+        "tipo_web": "acceso_movilidad",
+        "estado_web": "PUBLICO",
+        "dist_m": 2.91,
+        "confianza": "alta",
+        "publicable": "si",
+        "nota": "Conector visual de acceso a red vial. No ruta segura."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89283437207115,
+            19.496277974420053
+          ],
+          [
+            -98.89283076506199,
+            19.496304051408757
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nodo_id": 31,
+        "nombre": "PUENTE PEATONAL",
+        "tipo_web": "acceso_movilidad",
+        "estado_web": "PUBLICO",
+        "dist_m": 1.2,
+        "confianza": "alta",
+        "publicable": "si",
+        "nota": "Conector visual de acceso a red vial. No ruta segura."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88300015429346,
+            19.490585914263285
+          ],
+          [
+            -98.88301114514202,
+            19.490583058746367
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ruta-salitreria",
+        "nombre": "Campus ↔ Salitrería",
+        "categoria": "trayecto_lectura",
+        "descripcion": "Conexión conceptual hacia zona habitacional estudiantil norte.",
+        "etica": "Trayecto de lectura conceptual. No es ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.8816,
+            19.495
+          ],
+          [
+            -98.8828,
+            19.4995
+          ],
+          [
+            -98.886,
+            19.502
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ruta-cooperativo",
+        "nombre": "Campus ↔ Cooperativo",
+        "categoria": "trayecto_lectura",
+        "descripcion": "Ruta de comercio y vida social universitaria.",
+        "etica": "Trayecto de lectura conceptual. No es ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.8816,
+            19.495
+          ],
+          [
+            -98.8783,
+            19.498
+          ],
+          [
+            -98.877,
+            19.499
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ruta-boyeros",
+        "nombre": "Campus ↔ Boyeros",
+        "categoria": "trayecto_lectura",
+        "descripcion": "Conexión sur hacia zona de residencias periféricas.",
+        "etica": "Trayecto de lectura conceptual. No es ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.8816,
+            19.495
+          ],
+          [
+            -98.8808,
+            19.492500000000003
+          ],
+          [
+            -98.882,
+            19.488
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ruta-issste",
+        "nombre": "Campus ↔ ISSSTE",
+        "categoria": "trayecto_lectura",
+        "descripcion": "Conexión hacia infraestructura de salud y vivienda.",
+        "etica": "Trayecto de lectura conceptual. No es ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.8816,
+            19.495
+          ],
+          [
+            -98.87729999999999,
+            19.493000000000002
+          ],
+          [
+            -98.875,
+            19.489
+          ]
+        ]
+      }
+    }
+  ]
+}

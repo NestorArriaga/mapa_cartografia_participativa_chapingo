@@ -1,0 +1,2137 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "route_campus_salitreria",
+        "nombre": "Campus ↔ Salitrería",
+        "tipo": "trayecto_regional",
+        "precision": "conceptual",
+        "distancia_m": 1166,
+        "tiempo_caminata_min": 15,
+        "categoria": "trayecto_regional",
+        "etica": "Trayecto regional conceptual para lectura académica de movilidad peri-campus. No es ruta segura."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88502922307092,
+            19.49086685557748
+          ],
+          [
+            -98.89007677841175,
+            19.50021316314282
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "route_campus_cooperativo",
+        "nombre": "Campus ↔ Cooperativo/Cabañas",
+        "tipo": "trayecto_regional",
+        "precision": "conceptual",
+        "distancia_m": 433,
+        "tiempo_caminata_min": 5,
+        "categoria": "trayecto_regional",
+        "etica": "Trayecto regional conceptual para lectura académica de movilidad peri-campus. No es ruta segura."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88502922307092,
+            19.49086685557748
+          ],
+          [
+            -98.88366572279531,
+            19.487188729788194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "route_campus_issste",
+        "nombre": "Campus ↔ ISSSTE–Chapingo",
+        "tipo": "trayecto_regional",
+        "precision": "conceptual",
+        "distancia_m": 624,
+        "tiempo_caminata_min": 8,
+        "categoria": "trayecto_regional",
+        "etica": "Trayecto regional conceptual para lectura académica de movilidad peri-campus. No es ruta segura."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88502922307092,
+            19.49086685557748
+          ],
+          [
+            -98.89090894982984,
+            19.489977538580987
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "route_campus_boyeros",
+        "nombre": "Campus ↔ Boyeros",
+        "tipo": "trayecto_regional",
+        "precision": "conceptual",
+        "distancia_m": 2834,
+        "tiempo_caminata_min": 35,
+        "categoria": "trayecto_regional",
+        "etica": "Trayecto regional conceptual para lectura académica de movilidad peri-campus. No es ruta segura."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88502922307092,
+            19.49086685557748
+          ],
+          [
+            -98.9106280898513,
+            19.499055255232797
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "route_dicifo_boyeros",
+        "nombre": "DICIFO ↔ Boyeros",
+        "tipo": "corredor_cualitativo_validacion",
+        "precision": "conceptual",
+        "distancia_m": 1896,
+        "tiempo_caminata_min": 24,
+        "categoria": "corredor_cualitativo",
+        "etica": "Corredor cualitativo de validación. No es ruta segura ni ruta exacta."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89360038863026,
+            19.4932945048691
+          ],
+          [
+            -98.9106280898513,
+            19.499055255232797
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_0_18",
+        "nombre": "Ruta Campus: ESTADIO UNIVERSITARIO ↔ AGROINDUSTRIAS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 181,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89072371651365,
+            19.494560265674686
+          ],
+          [
+            -98.88958037527269,
+            19.493341382748135
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_0_8",
+        "nombre": "Ruta Campus: ESTADIO UNIVERSITARIO ↔ COMEDOR CENTRAL",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 195,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89072371651365,
+            19.494560265674686
+          ],
+          [
+            -98.89103288427833,
+            19.492826740596467
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_1_13",
+        "nombre": "Ruta Campus: CATACUMBAS ↔ CALZADA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 95,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88757657468072,
+            19.49233594170799
+          ],
+          [
+            -98.88748329356858,
+            19.49148354233407
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_1_52",
+        "nombre": "Ruta Campus: CATACUMBAS ↔ JURASICO",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 138,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88757657468072,
+            19.49233594170799
+          ],
+          [
+            -98.88669148088799,
+            19.493252568808526
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_2_4",
+        "nombre": "Ruta Campus: ENTRADA PRINCIPAL AL CAMPUS ↔ DIRECCIÓN DE ADMINISTRACIÓN\"EDIFICIO CON PATAS\"",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 66,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88502922307092,
+            19.49086685557748
+          ],
+          [
+            -98.88565738532549,
+            19.49079303446154
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_2_14",
+        "nombre": "Ruta Campus: ENTRADA PRINCIPAL AL CAMPUS ↔ COMEDOR CAMPESTRE",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 103,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88502922307092,
+            19.49086685557748
+          ],
+          [
+            -98.88407217354089,
+            19.491070896872746
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_3_29",
+        "nombre": "Ruta Campus: DICEA ↔ BIBLIOTECA DE DICEA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 58,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88642622131206,
+            19.489680736026592
+          ],
+          [
+            -98.88692717644028,
+            19.489906344782938
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_3_26",
+        "nombre": "Ruta Campus: DICEA ↔ SOCIOLOGIA RURAL",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 98,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88642622131206,
+            19.489680736026592
+          ],
+          [
+            -98.88735977178955,
+            19.48978073768066
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_3_4",
+        "nombre": "Ruta Campus: DIRECCIÓN DE ADMINISTRACIÓN\"EDIFICIO CON PATAS\" ↔ DICEA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 148,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88565738532549,
+            19.49079303446154
+          ],
+          [
+            -98.88642622131206,
+            19.489680736026592
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_5_53",
+        "nombre": "Ruta Campus: DEIS SUELOS ↔ INVERNADEROS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 75,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88621910067215,
+            19.494381216311037
+          ],
+          [
+            -98.88645678660863,
+            19.493744493921227
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_5_6",
+        "nombre": "Ruta Campus: DEIS SUELOS ↔ DEPARTAMENTO DE FITOTECNIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 80,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88621910067215,
+            19.494381216311037
+          ],
+          [
+            -98.88642431237382,
+            19.4950720648405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_6_7",
+        "nombre": "Ruta Campus: DEPARTAMENTO DE FITOTECNIA ↔ DEPARTAMENTO DE PARASITOLOGIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 100,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88642431237382,
+            19.4950720648405
+          ],
+          [
+            -98.88553450014656,
+            19.49474741319532
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_7_19",
+        "nombre": "Ruta Campus: DEPARTAMENTO DE PARASITOLOGIA ↔ PALAPAS DE PARASITOLOGIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 70,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88553450014656,
+            19.49474741319532
+          ],
+          [
+            -98.88506533238179,
+            19.4942960224545
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_5_7",
+        "nombre": "Ruta Campus: DEPARTAMENTO DE PARASITOLOGIA ↔ DEIS SUELOS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 83,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88553450014656,
+            19.49474741319532
+          ],
+          [
+            -98.88621910067215,
+            19.494381216311037
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_8_24",
+        "nombre": "Ruta Campus: COMEDOR CENTRAL ↔ IRRIGACION",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 124,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89103288427833,
+            19.492826740596467
+          ],
+          [
+            -98.89004015370995,
+            19.49222278532273
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_8_9",
+        "nombre": "Ruta Campus: COMEDOR CENTRAL ↔ PARTENON UNIVERSITARIO",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 126,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89103288427833,
+            19.492826740596467
+          ],
+          [
+            -98.89085422266189,
+            19.491706501108624
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_9_44",
+        "nombre": "Ruta Campus: PARTENON UNIVERSITARIO ↔ INGENIERIA MECANICA AGRICOLA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 55,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89085422266189,
+            19.491706501108624
+          ],
+          [
+            -98.89111392733444,
+            19.4912776331248
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_9_45",
+        "nombre": "Ruta Campus: PARTENON UNIVERSITARIO ↔ OFICINAS HCU",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 85,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89085422266189,
+            19.491706501108624
+          ],
+          [
+            -98.89113546159567,
+            19.49099338715737
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_10_11",
+        "nombre": "Ruta Campus: TERMINAL - SALA DE ESTUDIOS ↔ ENTRADA FITOTECNIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 72,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88760678461509,
+            19.494772081548465
+          ],
+          [
+            -98.88734785266215,
+            19.495368692415067
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_6_10",
+        "nombre": "Ruta Campus: TERMINAL - SALA DE ESTUDIOS ↔ DEPARTAMENTO DE FITOTECNIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 128,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88760678461509,
+            19.494772081548465
+          ],
+          [
+            -98.88642431237382,
+            19.4950720648405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_6_11",
+        "nombre": "Ruta Campus: ENTRADA FITOTECNIA ↔ DEPARTAMENTO DE FITOTECNIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 102,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88734785266215,
+            19.495368692415067
+          ],
+          [
+            -98.88642431237382,
+            19.4950720648405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_12_51",
+        "nombre": "Ruta Campus: DICIFO ↔ ASERRADERO",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 101,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89360038863026,
+            19.4932945048691
+          ],
+          [
+            -98.89401756564911,
+            19.49247943608787
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_12_48",
+        "nombre": "Ruta Campus: DICIFO ↔ CONTROL DE VEHICULOS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 144,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89360038863026,
+            19.4932945048691
+          ],
+          [
+            -98.89261666750662,
+            19.49239111604657
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_13_25",
+        "nombre": "Ruta Campus: CALZADA ↔ BIBLIOTECA CENTRAL",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 76,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88748329356858,
+            19.49148354233407
+          ],
+          [
+            -98.8875306378608,
+            19.490800372379123
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_14_55",
+        "nombre": "Ruta Campus: COMEDOR CAMPESTRE ↔ RADIO CHAPINGO",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 157,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88407217354089,
+            19.491070896872746
+          ],
+          [
+            -98.88379165853233,
+            19.48968793174921
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_15_20",
+        "nombre": "Ruta Campus: RECTORIA ↔ MUSEO NACIONAL DE AGRICULTURA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 17,
+        "tiempo_caminata_min": 0,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88904526934365,
+            19.49209805315036
+          ],
+          [
+            -98.88917283463425,
+            19.49219552904613
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_15_24",
+        "nombre": "Ruta Campus: RECTORIA ↔ IRRIGACION",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 105,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88904526934365,
+            19.49209805315036
+          ],
+          [
+            -98.89004015370995,
+            19.49222278532273
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_16_40",
+        "nombre": "Ruta Campus: DIMA ↔ ALMACEN GENERAL",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 37,
+        "tiempo_caminata_min": 0,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89216621348474,
+            19.491148304899077
+          ],
+          [
+            -98.89212490495574,
+            19.490822323842448
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_16_23",
+        "nombre": "Ruta Campus: DIMA ↔ MAQUINARIA AGRICOLA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 41,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89216621348474,
+            19.491148304899077
+          ],
+          [
+            -98.89255705573085,
+            19.4912032973964
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_12_17",
+        "nombre": "Ruta Campus: CANCHAS TECHADAS ↔ DICIFO",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 203,
+        "tiempo_caminata_min": 3,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89349125076984,
+            19.49511634160169
+          ],
+          [
+            -98.89360038863026,
+            19.4932945048691
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_18_24",
+        "nombre": "Ruta Campus: AGROINDUSTRIAS ↔ IRRIGACION",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 133,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88958037527269,
+            19.493341382748135
+          ],
+          [
+            -98.89004015370995,
+            19.49222278532273
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_18_20",
+        "nombre": "Ruta Campus: AGROINDUSTRIAS ↔ MUSEO NACIONAL DE AGRICULTURA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 134,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88958037527269,
+            19.493341382748135
+          ],
+          [
+            -98.88917283463425,
+            19.49219552904613
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_5_19",
+        "nombre": "Ruta Campus: PALAPAS DE PARASITOLOGIA ↔ DEIS SUELOS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 121,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88506533238179,
+            19.4942960224545
+          ],
+          [
+            -98.88621910067215,
+            19.494381216311037
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_20_24",
+        "nombre": "Ruta Campus: MUSEO NACIONAL DE AGRICULTURA ↔ IRRIGACION",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 91,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88917283463425,
+            19.49219552904613
+          ],
+          [
+            -98.89004015370995,
+            19.49222278532273
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_21_42",
+        "nombre": "Ruta Campus: EDIFICIO DE INGENIERIAS ↔ CENTRO DE COMPUTO ZOOTECNIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 123,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89358280499455,
+            19.49020992449617
+          ],
+          [
+            -98.89250626177837,
+            19.490645060379887
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_21_22",
+        "nombre": "Ruta Campus: EDIFICIO DE INGENIERIAS ↔ UNIDAD EXPERIMENTAL DE MECANICA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 133,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89358280499455,
+            19.49020992449617
+          ],
+          [
+            -98.89338276872436,
+            19.491389521660157
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_22_50",
+        "nombre": "Ruta Campus: UNIDAD EXPERIMENTAL DE MECANICA ↔ PLANTA DE TRATAMIENTO DE AGUAS NEGRAS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 48,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89338276872436,
+            19.491389521660157
+          ],
+          [
+            -98.89312381714163,
+            19.49174555106231
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_22_49",
+        "nombre": "Ruta Campus: UNIDAD EXPERIMENTAL DE MECANICA ↔ MODULO DE ACOPIO",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 59,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89338276872436,
+            19.491389521660157
+          ],
+          [
+            -98.89372372428221,
+            19.49181291109311
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_23_43",
+        "nombre": "Ruta Campus: MAQUINARIA AGRICOLA ↔ LABORATORIO DE FÍSICA Y MÉCANICA DE SUELOS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 20,
+        "tiempo_caminata_min": 0,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89255705573085,
+            19.4912032973964
+          ],
+          [
+            -98.89274205009289,
+            19.4912232967238
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_9_24",
+        "nombre": "Ruta Campus: IRRIGACION ↔ PARTENON UNIVERSITARIO",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 103,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89004015370995,
+            19.49222278532273
+          ],
+          [
+            -98.89085422266189,
+            19.491706501108624
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_25_27",
+        "nombre": "Ruta Campus: BIBLIOTECA CENTRAL ↔ DEPARTAMENTO DE AGROECOLOGIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 106,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.8875306378608,
+            19.490800372379123
+          ],
+          [
+            -98.88817394989876,
+            19.49006412873857
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_26_29",
+        "nombre": "Ruta Campus: SOCIOLOGIA RURAL ↔ BIBLIOTECA DE DICEA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 47,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88735977178955,
+            19.48978073768066
+          ],
+          [
+            -98.88692717644028,
+            19.489906344782938
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_26_27",
+        "nombre": "Ruta Campus: SOCIOLOGIA RURAL ↔ DEPARTAMENTO DE AGROECOLOGIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 91,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88735977178955,
+            19.48978073768066
+          ],
+          [
+            -98.88817394989876,
+            19.49006412873857
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_27_31",
+        "nombre": "Ruta Campus: DEPARTAMENTO DE AGROECOLOGIA ↔ INVERNADERO DE SUELOS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 90,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88817394989876,
+            19.49006412873857
+          ],
+          [
+            -98.88899693752414,
+            19.48984308786977
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_27_28",
+        "nombre": "Ruta Campus: PREPARATORIA AGRICOLA AULAS ↔ DEPARTAMENTO DE AGROECOLOGIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 92,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88825580393153,
+            19.489241637865874
+          ],
+          [
+            -98.88817394989876,
+            19.49006412873857
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_28_31",
+        "nombre": "Ruta Campus: PREPARATORIA AGRICOLA AULAS ↔ INVERNADERO DE SUELOS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 103,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88825580393153,
+            19.489241637865874
+          ],
+          [
+            -98.88899693752414,
+            19.48984308786977
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_30_31",
+        "nombre": "Ruta Campus: BIBLIOTECA PREPARATORIA AGRICOLA ↔ INVERNADERO DE SUELOS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 78,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88944345939193,
+            19.48928248339271
+          ],
+          [
+            -98.88899693752414,
+            19.48984308786977
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_30_33",
+        "nombre": "Ruta Campus: BIBLIOTECA PREPARATORIA AGRICOLA ↔ INVERNADERO DE PLANTAS TROPICALES",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 79,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88944345939193,
+            19.48928248339271
+          ],
+          [
+            -98.88964092542118,
+            19.489970543755256
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_31_34",
+        "nombre": "Ruta Campus: INVERNADERO DE SUELOS ↔ EDIFICIO PRINCIPAL DE PREPARATORIA AGRICOLA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 53,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88899693752414,
+            19.48984308786977
+          ],
+          [
+            -98.88907786228583,
+            19.490312568124175
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_31_33",
+        "nombre": "Ruta Campus: INVERNADERO DE SUELOS ↔ INVERNADERO DE PLANTAS TROPICALES",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 69,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88899693752414,
+            19.48984308786977
+          ],
+          [
+            -98.88964092542118,
+            19.489970543755256
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_32_35",
+        "nombre": "Ruta Campus: TALLERES CULTURALES ↔ AUDITORIO PRINCIPAL",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 56,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89026673964781,
+            19.490249865278518
+          ],
+          [
+            -98.88982749694729,
+            19.4905420442684
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_32_33",
+        "nombre": "Ruta Campus: TALLERES CULTURALES ↔ INVERNADERO DE PLANTAS TROPICALES",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 73,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89026673964781,
+            19.490249865278518
+          ],
+          [
+            -98.88964092542118,
+            19.489970543755256
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_33_35",
+        "nombre": "Ruta Campus: INVERNADERO DE PLANTAS TROPICALES ↔ AUDITORIO PRINCIPAL",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 66,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88964092542118,
+            19.489970543755256
+          ],
+          [
+            -98.88982749694729,
+            19.4905420442684
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_33_34",
+        "nombre": "Ruta Campus: EDIFICIO PRINCIPAL DE PREPARATORIA AGRICOLA ↔ INVERNADERO DE PLANTAS TROPICALES",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 70,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88907786228583,
+            19.490312568124175
+          ],
+          [
+            -98.88964092542118,
+            19.489970543755256
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_36_38",
+        "nombre": "Ruta Campus: POSGRADO ZOOTECNIA ↔ CUBICULOS POSGRADO DE ZOOTECNIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 61,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89070664236209,
+            19.489582749451856
+          ],
+          [
+            -98.89103002865784,
+            19.49003373873421
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_36_39",
+        "nombre": "Ruta Campus: POSGRADO ZOOTECNIA ↔ LABORATORIO DE POSGRADO ZOOTECNIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 85,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89070664236209,
+            19.489582749451856
+          ],
+          [
+            -98.89144540079936,
+            19.489896118739182
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_37_39",
+        "nombre": "Ruta Campus: CENTRO DE LENGUAS ↔ LABORATORIO DE POSGRADO ZOOTECNIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 42,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89137083330498,
+            19.49027116995615
+          ],
+          [
+            -98.89144540079936,
+            19.489896118739182
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_37_38",
+        "nombre": "Ruta Campus: CENTRO DE LENGUAS ↔ CUBICULOS POSGRADO DE ZOOTECNIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 44,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89137083330498,
+            19.49027116995615
+          ],
+          [
+            -98.89103002865784,
+            19.49003373873421
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_38_39",
+        "nombre": "Ruta Campus: CUBICULOS POSGRADO DE ZOOTECNIA ↔ LABORATORIO DE POSGRADO ZOOTECNIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 46,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89103002865784,
+            19.49003373873421
+          ],
+          [
+            -98.89144540079936,
+            19.489896118739182
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_40_42",
+        "nombre": "Ruta Campus: ALMACEN GENERAL ↔ CENTRO DE COMPUTO ZOOTECNIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 45,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89212490495574,
+            19.490822323842448
+          ],
+          [
+            -98.89250626177837,
+            19.490645060379887
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_39_41",
+        "nombre": "Ruta Campus: ZOOTECNIA ↔ LABORATORIO DE POSGRADO ZOOTECNIA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 69,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.8921035359942,
+            19.489923960083445
+          ],
+          [
+            -98.89144540079936,
+            19.489896118739182
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_37_41",
+        "nombre": "Ruta Campus: ZOOTECNIA ↔ CENTRO DE LENGUAS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 86,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.8921035359942,
+            19.489923960083445
+          ],
+          [
+            -98.89137083330498,
+            19.49027116995615
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_23_42",
+        "nombre": "Ruta Campus: CENTRO DE COMPUTO ZOOTECNIA ↔ MAQUINARIA AGRICOLA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 62,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89250626177837,
+            19.490645060379887
+          ],
+          [
+            -98.89255705573085,
+            19.4912032973964
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_16_43",
+        "nombre": "Ruta Campus: LABORATORIO DE FÍSICA Y MÉCANICA DE SUELOS ↔ DIMA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 61,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89274205009289,
+            19.4912232967238
+          ],
+          [
+            -98.89216621348474,
+            19.491148304899077
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_44_45",
+        "nombre": "Ruta Campus: INGENIERIA MECANICA AGRICOLA ↔ OFICINAS HCU",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 32,
+        "tiempo_caminata_min": 0,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89111392733444,
+            19.4912776331248
+          ],
+          [
+            -98.89113546159567,
+            19.49099338715737
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_37_45",
+        "nombre": "Ruta Campus: OFICINAS HCU ↔ CENTRO DE LENGUAS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 84,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89113546159567,
+            19.49099338715737
+          ],
+          [
+            -98.89137083330498,
+            19.49027116995615
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_46_47",
+        "nombre": "Ruta Campus: TALLER DE VEHICULOS OFICIALES ↔ AREA DE PROCESOS DE MANUFACTURA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 38,
+        "tiempo_caminata_min": 0,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89234514657375,
+            19.49171459796859
+          ],
+          [
+            -98.8922821063796,
+            19.492046919589864
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_23_46",
+        "nombre": "Ruta Campus: TALLER DE VEHICULOS OFICIALES ↔ MAQUINARIA AGRICOLA",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 61,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89234514657375,
+            19.49171459796859
+          ],
+          [
+            -98.89255705573085,
+            19.4912032973964
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_47_48",
+        "nombre": "Ruta Campus: AREA DE PROCESOS DE MANUFACTURA ↔ CONTROL DE VEHICULOS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 52,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.8922821063796,
+            19.492046919589864
+          ],
+          [
+            -98.89261666750662,
+            19.49239111604657
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_46_48",
+        "nombre": "Ruta Campus: CONTROL DE VEHICULOS ↔ TALLER DE VEHICULOS OFICIALES",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 80,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89261666750662,
+            19.49239111604657
+          ],
+          [
+            -98.89234514657375,
+            19.49171459796859
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_49_50",
+        "nombre": "Ruta Campus: MODULO DE ACOPIO ↔ PLANTA DE TRATAMIENTO DE AGUAS NEGRAS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 63,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89372372428221,
+            19.49181291109311
+          ],
+          [
+            -98.89312381714163,
+            19.49174555106231
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_49_51",
+        "nombre": "Ruta Campus: ASERRADERO ↔ MODULO DE ACOPIO",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 80,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.89401756564911,
+            19.49247943608787
+          ],
+          [
+            -98.89372372428221,
+            19.49181291109311
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_52_53",
+        "nombre": "Ruta Campus: JURASICO ↔ INVERNADEROS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 60,
+        "tiempo_caminata_min": 1,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88669148088799,
+            19.493252568808526
+          ],
+          [
+            -98.88645678660863,
+            19.493744493921227
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_5_52",
+        "nombre": "Ruta Campus: JURASICO ↔ DEIS SUELOS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 135,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88669148088799,
+            19.493252568808526
+          ],
+          [
+            -98.88621910067215,
+            19.494381216311037
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_52_54",
+        "nombre": "Ruta Campus: AUDIORAMA ↔ JURASICO",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 146,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88555074243718,
+            19.492506321095277
+          ],
+          [
+            -98.88669148088799,
+            19.493252568808526
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_53_54",
+        "nombre": "Ruta Campus: AUDIORAMA ↔ INVERNADEROS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 167,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88555074243718,
+            19.492506321095277
+          ],
+          [
+            -98.88645678660863,
+            19.493744493921227
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campus_route_2_55",
+        "nombre": "Ruta Campus: RADIO CHAPINGO ↔ ENTRADA PRINCIPAL AL CAMPUS",
+        "tipo": "ruta_interna_conceptual",
+        "precision": "conceptual",
+        "distancia_m": 184,
+        "tiempo_caminata_min": 2,
+        "categoria": "movilidad_campus",
+        "etica": "Ruta visual para lectura académica. No representa ruta segura ni recomendación de traslado."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.88379165853233,
+            19.48968793174921
+          ],
+          [
+            -98.88502922307092,
+            19.49086685557748
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700&family=Sora:wght@400;600;700;800&family=Space+Grotesk:wght@400;600;700&display=swap');
+@import "./finalDesignSystem.css";
+@import "./finalCartographicTheme.css";
+@import "./finalIntelligentTheme.css";
+
+:root {
+  --font-title: "Space Grotesk", "Sora", system-ui, sans-serif;
+  --font-ui: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

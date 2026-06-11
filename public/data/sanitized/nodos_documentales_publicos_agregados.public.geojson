@@ -1,0 +1,572 @@
+{
+  "type": "FeatureCollection",
+  "name": "nodos_documentales_publicos_agregados_v06",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "per_campus_caminos_noche",
+        "titulo": "Caminos internos de noche",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "percepcion_espacio",
+        "variable": "alerta_evitacion_nocturna",
+        "urgencia": "alta",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Alta alerta/evitación en caminos internos nocturnos; requiere validación por recorridos de iluminación y vigilancia.",
+        "popup": "Síntesis agregada; no corresponde a incidente puntual.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89103928493063,
+          19.49139951505664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "per_labs_aulas_noche",
+        "titulo": "Laboratorios y aulas de noche",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "percepcion_espacio",
+        "variable": "espacio_academico_nocturno",
+        "urgencia": "alta",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Espacios académicos nocturnos aparecen como foco de alerta por aislamiento y baja actividad.",
+        "popup": "Nodo agregado de percepción.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.8903316464097,
+          19.48986863242852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "per_comedor_explanadas_noche",
+        "titulo": "Comedor y explanadas de noche",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "percepcion_espacio",
+        "variable": "espacio_comunitario_nocturno",
+        "urgencia": "media",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Espacios de concentración nocturna con alerta media; útil para validar iluminación y flujo de personas.",
+        "popup": "Nodo agregado de percepción.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88990061611925,
+          19.49054788279055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "per_canchas_deportivas",
+        "titulo": "Canchas y áreas deportivas",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "percepcion_espacio",
+        "variable": "espacio_deportivo",
+        "urgencia": "media",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Zona deportiva mencionada como espacio de cuestionamiento/aislamiento; requiere validación horaria.",
+        "popup": "Nodo agregado.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89063963465763,
+          19.491629423541752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "tray_salitreria",
+        "titulo": "Trayecto Salitrería–Campus",
+        "zona": "SALITRERIA",
+        "categoria": "trayecto_perimetral",
+        "variable": "trayecto_perimetral",
+        "urgencia": "muy_alta",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Trayecto con alta alerta/evitación en encuesta; requiere digitalizar ruta peatonal y validar iluminación.",
+        "popup": "Percepción agregada por trayecto.",
+        "pct_alerta": "87.5",
+        "nivel_zona": "media",
+        "score_zona": "0.594",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89007677841175,
+          19.50021316314282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "tray_cooperativo",
+        "titulo": "Trayecto Cooperativo/Cabañas–Campus",
+        "zona": "COOPERATIVO/CABAÑAS",
+        "categoria": "trayecto_perimetral",
+        "variable": "trayecto_perimetral",
+        "urgencia": "alta",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Trayecto asociado a puente y tramo oscuro; requiere validación de campo.",
+        "popup": "Percepción agregada por trayecto.",
+        "pct_alerta": "80.95",
+        "nivel_zona": "media",
+        "score_zona": "0.631",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88366572279531,
+          19.487188729788194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "tray_issste_huexotla",
+        "titulo": "Trayecto ISSSTE/Huexotla–Campus",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "trayecto_perimetral",
+        "variable": "trayecto_perimetral",
+        "urgencia": "muy_alta",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Trayecto con señal alta en ficha y encuesta; requiere revisión de alumbrado, asaltos reportados y movilidad nocturna.",
+        "popup": "Percepción agregada por trayecto.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89090894982984,
+          19.489977538580987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "tray_boyeros_dicifo",
+        "titulo": "Trayecto DICIFO–Boyeros",
+        "zona": "BOYEROS",
+        "categoria": "trayecto_perimetral",
+        "variable": "trayecto_perimetral",
+        "urgencia": "media_alta",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Tramo descrito como aislado y con baja iluminación; requiere levantar datos participativos específicos.",
+        "popup": "Nodo de hipótesis a validar.",
+        "pct_alerta": "0.0",
+        "nivel_zona": "baja",
+        "score_zona": "0.175",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.9106280898513,
+          19.499055255232797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "fac_iluminacion_deficiente",
+        "titulo": "Iluminación deficiente reportada",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "factor_estructural",
+        "variable": "iluminacion",
+        "urgencia": "alta",
+        "nivel_uso": "PUBLICO_CONTEXTUAL",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Factor estructural transversal; validar con recorridos nocturnos y reportes de luminarias.",
+        "popup": "Factor estructural por validar.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "si",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88923002633047,
+          19.491275873141472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "fac_accesos_cerrados",
+        "titulo": "Accesos cerrados y rutas alternas",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "factor_estructural",
+        "variable": "accesos",
+        "urgencia": "alta",
+        "nivel_uso": "PUBLICO_CONTEXTUAL",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "El cierre de accesos puede forzar rutas oscuras; mapear horarios reales de puertas.",
+        "popup": "Factor estructural.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "si",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89179683840923,
+          19.491402169425097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "rec_ruta_segura",
+        "titulo": "Ruta Segura UACh",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "recurso_apoyo",
+        "variable": "ruta_segura",
+        "urgencia": "recurso",
+        "nivel_uso": "PUBLICO_CONTEXTUAL",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Recurso institucional reportado; validar vigencia, horarios y paradas antes de publicarlo como operativo.",
+        "popup": "Recurso por validar/actualizar.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "si",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.8901723063503,
+          19.491619996463715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "rec_torobus",
+        "titulo": "Torobús Chapingo–Texcoco",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "recurso_apoyo",
+        "variable": "transporte_institucional",
+        "urgencia": "recurso",
+        "nivel_uso": "PUBLICO_CONTEXTUAL",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Recurso de movilidad institucional; requiere vigencia y trazo de ruta.",
+        "popup": "Recurso institucional.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "si",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89133442610452,
+          19.490363269016257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "rec_seguridad_uach",
+        "titulo": "Seguridad y vigilancia UACh",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "recurso_apoyo",
+        "variable": "contacto_institucional",
+        "urgencia": "recurso",
+        "nivel_uso": "PUBLICO_CONTEXTUAL",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Contacto institucional; publicar sólo contactos oficiales confirmados.",
+        "popup": "Contacto institucional.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "si",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88918302151474,
+          19.490604214842755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "rec_seguridad_texcoco",
+        "titulo": "Seguridad pública / emergencias Texcoco",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "recurso_apoyo",
+        "variable": "contacto_institucional",
+        "urgencia": "recurso",
+        "nivel_uso": "PUBLICO_CONTEXTUAL",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Contactos municipales de emergencia y denuncia; se recomienda módulo de recursos, no sólo mapa.",
+        "popup": "Recurso municipal.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "si",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89127733109697,
+          19.492017246559044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "rec_direccion_mujer",
+        "titulo": "Dirección de la Mujer Texcoco",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "recurso_apoyo",
+        "variable": "atencion_violencia",
+        "urgencia": "recurso",
+        "nivel_uso": "PUBLICO_CONTEXTUAL",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Recurso institucional de atención; ubicar y validar contacto oficial antes de hacer botón en web.",
+        "popup": "Recurso de apoyo.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "si",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89050300027392,
+          19.49028097002229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "caso_intracampus_2004",
+        "titulo": "Caso documentado intracampus 2004",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "caso_documentado",
+        "variable": "memoria_documental",
+        "urgencia": "memoria",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Memoria documental agregada de violencia de género; no usar ubicación exacta ni detalles revictimizantes.",
+        "popup": "Memoria agregada.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88952348182347,
+          19.490013567132944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "caso_intracampus_2014",
+        "titulo": "Caso documentado intracampus 2014",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "caso_documentado",
+        "variable": "memoria_documental",
+        "urgencia": "memoria",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Memoria documental agregada asociada a campus; requiere revisión de fuente antes de publicar detalle.",
+        "popup": "Memoria agregada.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89049088223514,
+          19.492271805266814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "caso_intracampus_2019",
+        "titulo": "Caso documentado intracampus 2019",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "caso_documentado",
+        "variable": "memoria_documental",
+        "urgencia": "memoria",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Memoria documental agregada; no publicar ubicación exacta ni detalles revictimizantes.",
+        "popup": "Memoria agregada.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.89082017346234,
+          19.49041267229018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "caso_puente_cooperativo_2016",
+        "titulo": "Caso documentado Cooperativo 2016",
+        "zona": "COOPERATIVO/CABAÑAS",
+        "categoria": "caso_documentado",
+        "variable": "memoria_documental",
+        "urgencia": "memoria",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Memoria documental agregada asociada al trayecto; validar antes de publicar detalle.",
+        "popup": "Memoria agregada.",
+        "pct_alerta": "80.95",
+        "nivel_zona": "media",
+        "score_zona": "0.631",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88227626819058,
+          19.487607828963167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "caso_huexotla_asalto_2026",
+        "titulo": "Asalto reportado en Huexotla 2026",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "caso_documentado",
+        "variable": "memoria_documental",
+        "urgencia": "alta",
+        "nivel_uso": "PUBLICO_AGREGADO",
+        "publicable": "si",
+        "precision": "centroide_zona_offset",
+        "resumen": "Caso documental agregado a zona; no sustituye denuncia ni estadística oficial.",
+        "popup": "Caso agregado por zona.",
+        "pct_alerta": "41.56",
+        "nivel_zona": "alta",
+        "score_zona": "0.825",
+        "requiere_valid": "no",
+        "etica": "Nodo agregado/aproximado por zona; no representa ubicación exacta ni riesgo absoluto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.88959423972119,
+          19.490968783265387
+        ]
+      }
+    }
+  ]
+}

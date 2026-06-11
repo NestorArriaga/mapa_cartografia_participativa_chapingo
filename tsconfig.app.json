@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": [
+    "src/main.tsx",
+    "src/App.tsx",
+    "src/App.safe.tsx",
+    "src/lib/**/*",
+    "src/services/liveFeedbackEngine.ts",
+    "src/services/recommendationEngine.ts",
+    "src/stores/dataModeStore.ts",
+    "src/stores/selectionStore.ts",
+    "src/stores/mapStore.ts",
+    "src/components/map/StableMapLibreRenderer.tsx",
+    "src/components/map/MapLibreAnimationController.tsx",
+    "src/components/map/symbols/nodeStyle.ts",
+    "src/components/map/MapRadialMenu.tsx",
+    "src/components/panels/LeftControlPanel.tsx",
+    "src/components/panels/RightDetailPanel.tsx",
+    "src/components/panels/AcademicModeModal.tsx",
+    "src/components/panels/InsightDeck.tsx",
+    "src/components/system/AppErrorBoundary.tsx",
+    "src/components/tools/ContributionToolbar.tsx",
+    "src/components/tools/ExportTools.tsx",
+    "src/vite-env.d.ts"
+  ]
+}

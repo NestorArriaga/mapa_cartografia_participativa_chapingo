@@ -1,0 +1,174 @@
+@import "./styles/finalCartographicTheme.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-title: 'Space Grotesk', 'Sora', system-ui, sans-serif;
+  --font-ui: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Paleta MAPVIVO */
+  --mv-obsidian: #030712;
+  --mv-black-soil: #050805;
+  --mv-panel-ink: rgba(3,7,18,0.93);
+  --mv-gold: #D6A83A;
+  --mv-maize: #F2C14E;
+  --mv-warm-soil: #8A5A2B;
+  --mv-green: #35D07F;
+  --mv-green-soft: #7EE2A8;
+  --mv-magenta: #F43F9D;
+  --mv-coral: #FF4D5E;
+  --mv-orange: #FB923C;
+  --mv-amber: #FBBF24;
+  --mv-violet: #A855F7;
+  --mv-gray: #64748B;
+  --mv-white: #F4F7FB;
+  --mv-muted: #9AA9BA;
+  
+  --font-space-grotesk: var(--font-title);
+  --font-inter: var(--font-ui);
+  --font-jetbrains: var(--font-mono);
+  --color-chapingo-gold: var(--mv-gold);
+  --color-chapingo-gold-dim: rgba(214, 168, 58, 0.12);
+  --glass-bg: var(--mv-panel-ink);
+}
+
+* {
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--mv-obsidian);
+  color: var(--mv-white);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --background: 224 71% 4%;
+    --foreground: 210 40% 98%;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .title-font {
+    font-family: var(--font-space-grotesk);
+  }
+}
+
+@layer utilities {
+  .map-atmosphere {
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    z-index: 4;
+    background:
+      radial-gradient(circle at 50% 45%, rgba(34, 211, 238, 0.10), transparent 30%),
+      radial-gradient(circle at 82% 22%, rgba(244, 63, 157, 0.07), transparent 24%),
+      radial-gradient(circle at 18% 80%, rgba(200, 162, 58, 0.05), transparent 26%),
+      linear-gradient(180deg, rgba(3,7,18,0.16), rgba(3,7,18,0.58));
+    mix-blend-mode: screen;
+  }
+
+  .map-vignette {
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    background:
+      radial-gradient(circle at center, transparent 42%, rgba(0,0,0,0.50) 100%);
+  }
+
+  .noise-overlay {
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    z-index: 6;
+    opacity: 0.035;
+    background-image:
+      repeating-radial-gradient(circle at 0 0, rgba(255,255,255,0.18) 0, rgba(255,255,255,0.18) 1px, transparent 1px, transparent 4px);
+  }
+
+  .satellite-cinema-overlay {
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    z-index: 4;
+    background:
+      radial-gradient(circle at 50% 45%, rgba(34, 211, 238, 0.10), transparent 32%),
+      radial-gradient(circle at 78% 18%, rgba(244, 63, 157, 0.08), transparent 28%),
+      linear-gradient(180deg, rgba(3,7,18,0.28), rgba(3,7,18,0.64));
+    mix-blend-mode: multiply;
+  }
+
+  .satellite-data-glow {
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    background:
+      radial-gradient(circle at center, transparent 46%, rgba(0,0,0,0.58) 100%);
+  }
+
+  /* Animaciones lentas */
+  .animate-spin-slow {
+    animation: spin 8s linear infinite;
+  }
+
+  .panel-glass-premium {
+    @apply bg-[#07111F]/85 backdrop-blur-md border border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.4)];
+  }
+
+  .panel-danger-ethic {
+    @apply bg-red-950/80 backdrop-blur-md border border-red-500/30 shadow-2xl;
+  }
+}
+
+/* Glass Panels Component */
+.glass-panel {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(20px) saturate(1.4) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(1.4) !important;
+  border: 1px solid var(--color-chapingo-gold-dim) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 0 0 1px rgba(214, 168, 58, 0.06), 0 24px 48px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Map Atmosphere */
+.map-atmosphere {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 10;
+  background: radial-gradient(circle at center, rgba(0,0,0,0) 40%, rgba(0,0,0,0.4) 100%);
+}
+
+/* Micro-interactions */
+.glass-button {
+  transition: transform 120ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 120ms cubic-bezier(0.4, 0, 0.2, 1), background 120ms;
+}
+.glass-button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(214, 168, 58, 0.15);
+}
+.glass-button:active {
+  transform: scale(0.98);
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in-up {
+  animation: fade-in-up 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}

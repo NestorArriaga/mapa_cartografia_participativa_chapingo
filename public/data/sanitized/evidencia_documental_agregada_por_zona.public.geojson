@@ -1,0 +1,1264 @@
+{
+  "type": "FeatureCollection",
+  "name": "evidencia_documental_agregada_por_zona_v06",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M1_01",
+        "modulo": "M1 campus",
+        "nombre": "Caminos internos del campus de noche",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "percepcion_espacio",
+        "subcat": "campus_nocturno",
+        "urgencia": "alta",
+        "urg_num": 4,
+        "pct_ref": 79.2,
+        "precision": "zona_agregada",
+        "estado_ver": "parcial_fuente_documental",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "publicar_agregado_no_punto",
+        "variable": "alerta_evitacion_noche; memoria_institucional",
+        "fuente": "encuesta; CIMAC; Proceso",
+        "nota": "No publicar relatos crudos ni puntos exactos."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ],
+              [
+                -98.8984580577654,
+                19.48702356107487
+              ],
+              [
+                -98.89824150062344,
+                19.48632496011773
+              ],
+              [
+                -98.8954867447526,
+                19.485926225664905
+              ],
+              [
+                -98.89510054958036,
+                19.485626840710264
+              ],
+              [
+                -98.89142850559966,
+                19.484165217216585
+              ],
+              [
+                -98.89068672196355,
+                19.483900144482668
+              ],
+              [
+                -98.8894169628413,
+                19.48360196092422
+              ],
+              [
+                -98.8881468170186,
+                19.483969269068787
+              ],
+              [
+                -98.88265779477491,
+                19.48901164449139
+              ],
+              [
+                -98.88399256268644,
+                19.493394486011596
+              ],
+              [
+                -98.88381524515486,
+                19.4950261117692
+              ],
+              [
+                -98.89584697836727,
+                19.496639058587668
+              ],
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M1_02",
+        "modulo": "M1 campus",
+        "nombre": "Laboratorios y aulas de noche",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "percepcion_espacio",
+        "subcat": "academico_nocturno",
+        "urgencia": "alta",
+        "urg_num": 4,
+        "pct_ref": 75,
+        "precision": "subzona_por_validar",
+        "estado_ver": "piloto",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "publicar_agregado_no_punto",
+        "variable": "espacios_academicos_nocturnos",
+        "fuente": "encuesta",
+        "nota": "Requiere digitalizar edificios/subzonas."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ],
+              [
+                -98.8984580577654,
+                19.48702356107487
+              ],
+              [
+                -98.89824150062344,
+                19.48632496011773
+              ],
+              [
+                -98.8954867447526,
+                19.485926225664905
+              ],
+              [
+                -98.89510054958036,
+                19.485626840710264
+              ],
+              [
+                -98.89142850559966,
+                19.484165217216585
+              ],
+              [
+                -98.89068672196355,
+                19.483900144482668
+              ],
+              [
+                -98.8894169628413,
+                19.48360196092422
+              ],
+              [
+                -98.8881468170186,
+                19.483969269068787
+              ],
+              [
+                -98.88265779477491,
+                19.48901164449139
+              ],
+              [
+                -98.88399256268644,
+                19.493394486011596
+              ],
+              [
+                -98.88381524515486,
+                19.4950261117692
+              ],
+              [
+                -98.89584697836727,
+                19.496639058587668
+              ],
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M1_05",
+        "modulo": "M1 campus",
+        "nombre": "Canchas y áreas deportivas",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "percepcion_espacio",
+        "subcat": "zonas_deportivas",
+        "urgencia": "media",
+        "urg_num": 3,
+        "pct_ref": 0,
+        "precision": "subzona_por_validar",
+        "estado_ver": "parcial_fuente_documental",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "publicar_agregado_contextual",
+        "variable": "zonas_deportivas_nocturnas",
+        "fuente": "encuesta; CIMAC",
+        "nota": "Evitar asociar evento histórico a punto exacto si revictimiza."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ],
+              [
+                -98.8984580577654,
+                19.48702356107487
+              ],
+              [
+                -98.89824150062344,
+                19.48632496011773
+              ],
+              [
+                -98.8954867447526,
+                19.485926225664905
+              ],
+              [
+                -98.89510054958036,
+                19.485626840710264
+              ],
+              [
+                -98.89142850559966,
+                19.484165217216585
+              ],
+              [
+                -98.89068672196355,
+                19.483900144482668
+              ],
+              [
+                -98.8894169628413,
+                19.48360196092422
+              ],
+              [
+                -98.8881468170186,
+                19.483969269068787
+              ],
+              [
+                -98.88265779477491,
+                19.48901164449139
+              ],
+              [
+                -98.88399256268644,
+                19.493394486011596
+              ],
+              [
+                -98.88381524515486,
+                19.4950261117692
+              ],
+              [
+                -98.89584697836727,
+                19.496639058587668
+              ],
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M1_06",
+        "modulo": "M1 campus",
+        "nombre": "Comedor y explanadas de noche",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "percepcion_espacio",
+        "subcat": "comedor_explanadas",
+        "urgencia": "media",
+        "urg_num": 3,
+        "pct_ref": 52.2,
+        "precision": "subzona_por_validar",
+        "estado_ver": "parcial_fuente_documental",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "publicar_agregado; ruta_segura_si_validada",
+        "variable": "comedor_explanadas_noche",
+        "fuente": "encuesta; ruta_segura_UACh",
+        "nota": "Ruta Segura puede ser capa positiva si se valida."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ],
+              [
+                -98.8984580577654,
+                19.48702356107487
+              ],
+              [
+                -98.89824150062344,
+                19.48632496011773
+              ],
+              [
+                -98.8954867447526,
+                19.485926225664905
+              ],
+              [
+                -98.89510054958036,
+                19.485626840710264
+              ],
+              [
+                -98.89142850559966,
+                19.484165217216585
+              ],
+              [
+                -98.89068672196355,
+                19.483900144482668
+              ],
+              [
+                -98.8894169628413,
+                19.48360196092422
+              ],
+              [
+                -98.8881468170186,
+                19.483969269068787
+              ],
+              [
+                -98.88265779477491,
+                19.48901164449139
+              ],
+              [
+                -98.88399256268644,
+                19.493394486011596
+              ],
+              [
+                -98.88381524515486,
+                19.4950261117692
+              ],
+              [
+                -98.89584697836727,
+                19.496639058587668
+              ],
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M2_01",
+        "modulo": "M2 trayectos",
+        "nombre": "Trayecto Salitrería - Campus",
+        "zona": "SALITRERIA",
+        "categoria": "trayecto_perimetral",
+        "subcat": "salitreria",
+        "urgencia": "alta",
+        "urg_num": 4,
+        "pct_ref": 87.5,
+        "precision": "zona_agregada",
+        "estado_ver": "piloto_y_documental",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "publicar_agregado_tramo",
+        "variable": "trayecto_salitreria",
+        "fuente": "encuesta; ruta_segura; ficha",
+        "nota": "Unidad de agregación crítica."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89402067736174,
+                19.504265395107947
+              ],
+              [
+                -98.89589255351086,
+                19.4967669507126
+              ],
+              [
+                -98.88403375610606,
+                19.495283301201198
+              ],
+              [
+                -98.8835712596561,
+                19.50258740479515
+              ],
+              [
+                -98.88912031798394,
+                19.50315274750142
+              ],
+              [
+                -98.89026287389161,
+                19.503959636164936
+              ],
+              [
+                -98.89402067736174,
+                19.504265395107947
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M2_02",
+        "modulo": "M2 trayectos",
+        "nombre": "Trayecto Cooperativo - Campus",
+        "zona": "COOPERATIVO/CABAÑAS",
+        "categoria": "trayecto_perimetral",
+        "subcat": "cooperativo",
+        "urgencia": "alta",
+        "urg_num": 4,
+        "pct_ref": 81,
+        "precision": "zona_agregada",
+        "estado_ver": "piloto_y_documental",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "publicar_agregado_tramo",
+        "variable": "trayecto_cooperativo",
+        "fuente": "encuesta; incidente_2016; ruta_segura",
+        "nota": "No representar como ruta segura."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.88525784689025,
+                19.484589586514378
+              ],
+              [
+                -98.88149539093378,
+                19.484273359831445
+              ],
+              [
+                -98.8824959150601,
+                19.488491162406337
+              ],
+              [
+                -98.885582868,
+                19.48481542172584
+              ],
+              [
+                -98.88525784689025,
+                19.484589586514378
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M2_03",
+        "modulo": "M2 trayectos",
+        "nombre": "Trayecto ISSSTE-Huexotla - Campus",
+        "zona": "TRAMO ISSSTE - CHAPINGO",
+        "categoria": "trayecto_perimetral",
+        "subcat": "issste_huexotla",
+        "urgencia": "muy_alta",
+        "urg_num": 5,
+        "pct_ref": 92.9,
+        "precision": "zona_agregada; direccion_por_validar",
+        "estado_ver": "requiere_verificacion_fuentes_2026",
+        "nivel_uso": "03_revision_controlada",
+        "regla_pub": "publicar_agregado; eventos_puntuales_en_revision",
+        "variable": "trayecto_issste_huexotla",
+        "fuente": "encuesta; reportes_2026; luminarias",
+        "nota": "Prioridad máxima de validación."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.8822695460378,
+                19.4902899329879
+              ],
+              [
+                -98.88227267558509,
+                19.490062839078316
+              ],
+              [
+                -98.87432947165574,
+                19.487848858561698
+              ],
+              [
+                -98.87423175715932,
+                19.487989087806984
+              ],
+              [
+                -98.8822695460378,
+                19.4902899329879
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M2_04",
+        "modulo": "M2 trayectos",
+        "nombre": "Trayecto DICIFO - Boyeros",
+        "zona": "BOYEROS",
+        "categoria": "trayecto_perimetral",
+        "subcat": "boyeros_dicifo",
+        "urgencia": "media_alta",
+        "urg_num": 3.5,
+        "pct_ref": 0,
+        "precision": "tramo_por_validar",
+        "estado_ver": "piloto",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "publicar_agregado_si_se_digitaliza",
+        "variable": "trayecto_boyeros_dicifo",
+        "fuente": "encuesta",
+        "nota": "Faltan preguntas directas y tramo lineal."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89793099701843,
+                19.4924935383856
+              ],
+              [
+                -98.89538107398747,
+                19.501004893899246
+              ],
+              [
+                -98.89563395477721,
+                19.504571979845107
+              ],
+              [
+                -98.89661078311993,
+                19.505072451375764
+              ],
+              [
+                -98.89799934621172,
+                19.50509930330293
+              ],
+              [
+                -98.90369374128079,
+                19.50551611973924
+              ],
+              [
+                -98.93109111098386,
+                19.496035050211653
+              ],
+              [
+                -98.89793099701843,
+                19.4924935383856
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M3_02",
+        "modulo": "M3 establecimientos",
+        "nombre": "La Selva de Kiko",
+        "zona": "SALITRERIA",
+        "categoria": "establecimiento_nocturno",
+        "subcat": "bar_establecido",
+        "urgencia": "media",
+        "urg_num": 3,
+        "pct_ref": 0,
+        "precision": "direccion_verificada_por_geocodificar",
+        "estado_ver": "direccion_por_geocodificar",
+        "nivel_uso": "03_revision_controlada",
+        "regla_pub": "revision_controlada; no_punto_seguro",
+        "variable": "bares_entorno_nocturno",
+        "fuente": "Facebook; Instagram; ficha",
+        "nota": "Puede ser contexto, no punto seguro."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89402067736174,
+                19.504265395107947
+              ],
+              [
+                -98.89589255351086,
+                19.4967669507126
+              ],
+              [
+                -98.88403375610606,
+                19.495283301201198
+              ],
+              [
+                -98.8835712596561,
+                19.50258740479515
+              ],
+              [
+                -98.88912031798394,
+                19.50315274750142
+              ],
+              [
+                -98.89026287389161,
+                19.503959636164936
+              ],
+              [
+                -98.89402067736174,
+                19.504265395107947
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M3_03",
+        "modulo": "M3 establecimientos",
+        "nombre": "ClanDestino — Huexotla",
+        "zona": "TRAMO ISSSTE - CHAPINGO",
+        "categoria": "establecimiento_nocturno",
+        "subcat": "bar_establecido",
+        "urgencia": "media_alta",
+        "urg_num": 3.5,
+        "pct_ref": 0,
+        "precision": "direccion_verificada_por_geocodificar",
+        "estado_ver": "direccion_por_geocodificar",
+        "nivel_uso": "03_revision_controlada",
+        "regla_pub": "revision_controlada; no_punto_seguro",
+        "variable": "bares_entorno_nocturno_huexotla",
+        "fuente": "Facebook; Instagram; reportes_2026",
+        "nota": "Contexto nocturno."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.8822695460378,
+                19.4902899329879
+              ],
+              [
+                -98.88227267558509,
+                19.490062839078316
+              ],
+              [
+                -98.87432947165574,
+                19.487848858561698
+              ],
+              [
+                -98.87423175715932,
+                19.487989087806984
+              ],
+              [
+                -98.8822695460378,
+                19.4902899329879
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M4_02",
+        "modulo": "M4 casos",
+        "nombre": "Asalto a dos mujeres en moto — San Luis Huexotla",
+        "zona": "TRAMO ISSSTE - CHAPINGO",
+        "categoria": "caso_documentado",
+        "subcat": "asalto_mujeres",
+        "urgencia": "muy_alta",
+        "urg_num": 5,
+        "pct_ref": 0,
+        "precision": "calle_por_validar",
+        "estado_ver": "requiere_verificacion_fuente_2026",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "agregado_zona; no_punto_si_no_se_valida",
+        "variable": "incidentes_huexotla",
+        "fuente": "reportes_2026; ficha",
+        "nota": "Útil para capa documental."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.8822695460378,
+                19.4902899329879
+              ],
+              [
+                -98.88227267558509,
+                19.490062839078316
+              ],
+              [
+                -98.87432947165574,
+                19.487848858561698
+              ],
+              [
+                -98.87423175715932,
+                19.487989087806984
+              ],
+              [
+                -98.8822695460378,
+                19.4902899329879
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M4_07",
+        "modulo": "M4 casos",
+        "nombre": "Feminicidio Nazaret Bautista Lara",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "caso_documentado",
+        "subcat": "feminicidio_intracampus",
+        "urgencia": "alta",
+        "urg_num": 4,
+        "pct_ref": 0,
+        "precision": "campus_agregado",
+        "estado_ver": "documental",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "publicar_memoria_contextual_no_punto_exactitud",
+        "variable": "memoria_violencia_intracampus",
+        "fuente": "CIMAC; Proceso; ficha",
+        "nota": "No exactitud sensible."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ],
+              [
+                -98.8984580577654,
+                19.48702356107487
+              ],
+              [
+                -98.89824150062344,
+                19.48632496011773
+              ],
+              [
+                -98.8954867447526,
+                19.485926225664905
+              ],
+              [
+                -98.89510054958036,
+                19.485626840710264
+              ],
+              [
+                -98.89142850559966,
+                19.484165217216585
+              ],
+              [
+                -98.89068672196355,
+                19.483900144482668
+              ],
+              [
+                -98.8894169628413,
+                19.48360196092422
+              ],
+              [
+                -98.8881468170186,
+                19.483969269068787
+              ],
+              [
+                -98.88265779477491,
+                19.48901164449139
+              ],
+              [
+                -98.88399256268644,
+                19.493394486011596
+              ],
+              [
+                -98.88381524515486,
+                19.4950261117692
+              ],
+              [
+                -98.89584697836727,
+                19.496639058587668
+              ],
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M4_09",
+        "modulo": "M4 casos",
+        "nombre": "Feminicidio Minerva Pacheco Ramón",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "caso_documentado",
+        "subcat": "feminicidio_intracampus",
+        "urgencia": "alta",
+        "urg_num": 4,
+        "pct_ref": 0,
+        "precision": "campus_agregado",
+        "estado_ver": "documental",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "publicar_memoria_contextual_no_punto_exactitud",
+        "variable": "memoria_violencia_intracampus",
+        "fuente": "CIMAC; ficha",
+        "nota": "No punto exacto."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ],
+              [
+                -98.8984580577654,
+                19.48702356107487
+              ],
+              [
+                -98.89824150062344,
+                19.48632496011773
+              ],
+              [
+                -98.8954867447526,
+                19.485926225664905
+              ],
+              [
+                -98.89510054958036,
+                19.485626840710264
+              ],
+              [
+                -98.89142850559966,
+                19.484165217216585
+              ],
+              [
+                -98.89068672196355,
+                19.483900144482668
+              ],
+              [
+                -98.8894169628413,
+                19.48360196092422
+              ],
+              [
+                -98.8881468170186,
+                19.483969269068787
+              ],
+              [
+                -98.88265779477491,
+                19.48901164449139
+              ],
+              [
+                -98.88399256268644,
+                19.493394486011596
+              ],
+              [
+                -98.88381524515486,
+                19.4950261117692
+              ],
+              [
+                -98.89584697836727,
+                19.496639058587668
+              ],
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M5_01",
+        "modulo": "M5 factores",
+        "nombre": "Iluminación deficiente",
+        "zona": "TRAMO ISSSTE - CHAPINGO",
+        "categoria": "factor_estructural",
+        "subcat": "alumbrado",
+        "urgencia": "alta",
+        "urg_num": 4,
+        "pct_ref": 0,
+        "precision": "tramo_por_validar",
+        "estado_ver": "requiere_validacion_campo",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "publicar_como_factor_no_incidente",
+        "variable": "iluminacion_deficiente",
+        "fuente": "reportes_vecinales; formulario_luminaria",
+        "nota": "Crear capa de recorridos nocturnos."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.8822695460378,
+                19.4902899329879
+              ],
+              [
+                -98.88227267558509,
+                19.490062839078316
+              ],
+              [
+                -98.87432947165574,
+                19.487848858561698
+              ],
+              [
+                -98.87423175715932,
+                19.487989087806984
+              ],
+              [
+                -98.8822695460378,
+                19.4902899329879
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M5_02",
+        "modulo": "M5 factores",
+        "nombre": "Accesos cerrados generan rutas alternativas oscuras",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "factor_estructural",
+        "subcat": "accesos_cerrados",
+        "urgencia": "alta",
+        "urg_num": 4,
+        "pct_ref": 65,
+        "precision": "nodos_accesos_existentes",
+        "estado_ver": "piloto",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "publicar_accesos; no_responsabilizar_victimas",
+        "variable": "accesos_horarios",
+        "fuente": "encuesta; directorio_UACh",
+        "nota": "Agregar horarios de apertura/cierre."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ],
+              [
+                -98.8984580577654,
+                19.48702356107487
+              ],
+              [
+                -98.89824150062344,
+                19.48632496011773
+              ],
+              [
+                -98.8954867447526,
+                19.485926225664905
+              ],
+              [
+                -98.89510054958036,
+                19.485626840710264
+              ],
+              [
+                -98.89142850559966,
+                19.484165217216585
+              ],
+              [
+                -98.89068672196355,
+                19.483900144482668
+              ],
+              [
+                -98.8894169628413,
+                19.48360196092422
+              ],
+              [
+                -98.8881468170186,
+                19.483969269068787
+              ],
+              [
+                -98.88265779477491,
+                19.48901164449139
+              ],
+              [
+                -98.88399256268644,
+                19.493394486011596
+              ],
+              [
+                -98.88381524515486,
+                19.4950261117692
+              ],
+              [
+                -98.89584697836727,
+                19.496639058587668
+              ],
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M5_03",
+        "modulo": "M5 factores",
+        "nombre": "Mototaxis y transporte informal",
+        "zona": "TRAMO ISSSTE - CHAPINGO",
+        "categoria": "factor_estructural",
+        "subcat": "transporte_informal",
+        "urgencia": "media",
+        "urg_num": 3,
+        "pct_ref": 0,
+        "precision": "sin_geoloc",
+        "estado_ver": "requiere_validacion_campo",
+        "nivel_uso": "03_revision_controlada",
+        "regla_pub": "revision_controlada",
+        "variable": "transporte_informal",
+        "fuente": "encuesta; reporte_mototaxis",
+        "nota": "Faltan paraderos activos."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.8822695460378,
+                19.4902899329879
+              ],
+              [
+                -98.88227267558509,
+                19.490062839078316
+              ],
+              [
+                -98.87432947165574,
+                19.487848858561698
+              ],
+              [
+                -98.87423175715932,
+                19.487989087806984
+              ],
+              [
+                -98.8822695460378,
+                19.4902899329879
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M5_04",
+        "modulo": "M5 factores",
+        "nombre": "Transporte seguro institucional / Ruta Segura / Torobús",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "recurso_apoyo",
+        "subcat": "ruta_segura",
+        "urgencia": "recurso",
+        "urg_num": 0,
+        "pct_ref": 0,
+        "precision": "ruta_por_digitalizar",
+        "estado_ver": "requiere_validacion_institucional",
+        "nivel_uso": "01_web_publico_core",
+        "regla_pub": "publicar_si_horarios_validados",
+        "variable": "rutas_seguras",
+        "fuente": "UACh; ruta_segura; Torobús",
+        "nota": "Capa positiva en verde, si se confirma operación."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ],
+              [
+                -98.8984580577654,
+                19.48702356107487
+              ],
+              [
+                -98.89824150062344,
+                19.48632496011773
+              ],
+              [
+                -98.8954867447526,
+                19.485926225664905
+              ],
+              [
+                -98.89510054958036,
+                19.485626840710264
+              ],
+              [
+                -98.89142850559966,
+                19.484165217216585
+              ],
+              [
+                -98.89068672196355,
+                19.483900144482668
+              ],
+              [
+                -98.8894169628413,
+                19.48360196092422
+              ],
+              [
+                -98.8881468170186,
+                19.483969269068787
+              ],
+              [
+                -98.88265779477491,
+                19.48901164449139
+              ],
+              [
+                -98.88399256268644,
+                19.493394486011596
+              ],
+              [
+                -98.88381524515486,
+                19.4950261117692
+              ],
+              [
+                -98.89584697836727,
+                19.496639058587668
+              ],
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M7_01",
+        "modulo": "M7 recursos",
+        "nombre": "Seguridad y Vigilancia UACh",
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "categoria": "recurso_apoyo",
+        "subcat": "institucional_uach",
+        "urgencia": "recurso",
+        "urg_num": 0,
+        "pct_ref": 0,
+        "precision": "institucional",
+        "estado_ver": "requiere_validar_contacto",
+        "nivel_uso": "03_revision_controlada",
+        "regla_pub": "publicar_contacto_si_vigente",
+        "variable": "contactos_emergencia",
+        "fuente": "directorio_UACh",
+        "nota": "Ext. 5616 según ficha."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ],
+              [
+                -98.8984580577654,
+                19.48702356107487
+              ],
+              [
+                -98.89824150062344,
+                19.48632496011773
+              ],
+              [
+                -98.8954867447526,
+                19.485926225664905
+              ],
+              [
+                -98.89510054958036,
+                19.485626840710264
+              ],
+              [
+                -98.89142850559966,
+                19.484165217216585
+              ],
+              [
+                -98.89068672196355,
+                19.483900144482668
+              ],
+              [
+                -98.8894169628413,
+                19.48360196092422
+              ],
+              [
+                -98.8881468170186,
+                19.483969269068787
+              ],
+              [
+                -98.88265779477491,
+                19.48901164449139
+              ],
+              [
+                -98.88399256268644,
+                19.493394486011596
+              ],
+              [
+                -98.88381524515486,
+                19.4950261117692
+              ],
+              [
+                -98.89584697836727,
+                19.496639058587668
+              ],
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

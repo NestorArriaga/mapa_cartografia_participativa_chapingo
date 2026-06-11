@@ -1,0 +1,24 @@
+/* src/styles/finalIntelligentTheme.css */
+@layer components {
+  .mv-panel {
+    background: linear-gradient(180deg, rgba(3,7,18,.95), rgba(5,8,12,.90));
+    backdrop-filter: blur(20px) saturate(1.14);
+    border: 1px solid rgba(214,168,58,.22);
+    box-shadow:
+      0 28px 90px rgba(0,0,0,.48),
+      inset 0 1px 0 rgba(255,255,255,.06);
+    border-radius: 26px;
+  }
+
+  .mv-panel-card {
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(244,247,251,.08);
+    border-radius: 18px;
+  }
+
+  .mv-action-primary {
+    background: linear-gradient(135deg, #F43F9D 0%, #D6A83A 54%, #35D07F 100%);
+    color: #030712;
+    font-weight: 800;
+  }
+}

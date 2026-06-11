@@ -1,0 +1,333 @@
+{
+  "type": "FeatureCollection",
+  "name": "zonas_prioridad_integrada_o_indicadores_v06",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zona": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "zona_join": "UNIVERSIDAD AUTONOMA CHAPINGO",
+        "n_obs": 154,
+        "pct_forms": 41.56,
+        "score_forms": 2.104,
+        "nivel_forms": "media",
+        "pct_ficha_max": 83.3,
+        "urg_doc_max": 4,
+        "urg_doc_txt": "alta",
+        "incidentes_n": 3,
+        "estructural_n": 1,
+        "establec_n": 0,
+        "recursos_n": 4,
+        "revision_n": 2,
+        "sensible_n": 3,
+        "score_integrado": 0.825,
+        "prioridad_v05": "alta",
+        "publicacion": "PUBLICO_AGREGADO_CON_SENSIBLES_OCULTOS",
+        "nota_web": "Prioridad de validación/intervención; no representa riesgo absoluto."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ],
+              [
+                -98.8984580577654,
+                19.48702356107487
+              ],
+              [
+                -98.89824150062344,
+                19.48632496011773
+              ],
+              [
+                -98.8954867447526,
+                19.485926225664905
+              ],
+              [
+                -98.89510054958036,
+                19.485626840710264
+              ],
+              [
+                -98.89142850559966,
+                19.484165217216585
+              ],
+              [
+                -98.89068672196355,
+                19.483900144482668
+              ],
+              [
+                -98.8894169628413,
+                19.48360196092422
+              ],
+              [
+                -98.8881468170186,
+                19.483969269068787
+              ],
+              [
+                -98.88265779477491,
+                19.48901164449139
+              ],
+              [
+                -98.88399256268644,
+                19.493394486011596
+              ],
+              [
+                -98.88381524515486,
+                19.4950261117692
+              ],
+              [
+                -98.89584697836727,
+                19.496639058587668
+              ],
+              [
+                -98.89722583790571,
+                19.49271442474073
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zona": "SALITRERIA",
+        "zona_join": "SALITRERIA",
+        "n_obs": 24,
+        "pct_forms": 87.5,
+        "score_forms": 3.167,
+        "nivel_forms": "critica",
+        "pct_ficha_max": 87.5,
+        "urg_doc_max": 4,
+        "urg_doc_txt": "alta",
+        "incidentes_n": 0,
+        "estructural_n": 0,
+        "establec_n": 2,
+        "recursos_n": 1,
+        "revision_n": 2,
+        "sensible_n": 1,
+        "score_integrado": 0.594,
+        "prioridad_v05": "media",
+        "publicacion": "PUBLICO_AGREGADO_CON_SENSIBLES_OCULTOS",
+        "nota_web": "Prioridad de validación/intervención; no representa riesgo absoluto."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89402067736174,
+                19.504265395107947
+              ],
+              [
+                -98.89589255351086,
+                19.4967669507126
+              ],
+              [
+                -98.88403375610606,
+                19.495283301201198
+              ],
+              [
+                -98.8835712596561,
+                19.50258740479515
+              ],
+              [
+                -98.88912031798394,
+                19.50315274750142
+              ],
+              [
+                -98.89026287389161,
+                19.503959636164936
+              ],
+              [
+                -98.89402067736174,
+                19.504265395107947
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zona": "COOPERATIVO/CABAÑAS",
+        "zona_join": "COOPERATIVO/CABAÑAS",
+        "n_obs": 21,
+        "pct_forms": 80.95,
+        "score_forms": 2.905,
+        "nivel_forms": "critica",
+        "pct_ficha_max": 81,
+        "urg_doc_max": 4,
+        "urg_doc_txt": "alta",
+        "incidentes_n": 1,
+        "estructural_n": 0,
+        "establec_n": 0,
+        "recursos_n": 0,
+        "revision_n": 0,
+        "sensible_n": 1,
+        "score_integrado": 0.631,
+        "prioridad_v05": "media",
+        "publicacion": "PUBLICO_AGREGADO_CON_SENSIBLES_OCULTOS",
+        "nota_web": "Prioridad de validación/intervención; no representa riesgo absoluto."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.88525784689025,
+                19.484589586514378
+              ],
+              [
+                -98.88149539093378,
+                19.484273359831445
+              ],
+              [
+                -98.8824959150601,
+                19.488491162406337
+              ],
+              [
+                -98.885582868,
+                19.48481542172584
+              ],
+              [
+                -98.88525784689025,
+                19.484589586514378
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zona": "TRAMO ISSTE - CHAPINGO",
+        "zona_join": "TRAMO ISSSTE - CHAPINGO",
+        "n_obs": 37,
+        "pct_forms": 59.46,
+        "score_forms": 2.459,
+        "nivel_forms": "alta",
+        "pct_ficha_max": 92.9,
+        "urg_doc_max": 5,
+        "urg_doc_txt": "muy_alta",
+        "incidentes_n": 1,
+        "estructural_n": 2,
+        "establec_n": 1,
+        "recursos_n": 0,
+        "revision_n": 3,
+        "sensible_n": 0,
+        "score_integrado": 0.835,
+        "prioridad_v05": "alta",
+        "publicacion": "PUBLICO_AGREGADO",
+        "nota_web": "Prioridad de validación/intervención; no representa riesgo absoluto."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.8822695460378,
+                19.4902899329879
+              ],
+              [
+                -98.88227267558509,
+                19.490062839078316
+              ],
+              [
+                -98.87432947165574,
+                19.487848858561698
+              ],
+              [
+                -98.87423175715932,
+                19.487989087806984
+              ],
+              [
+                -98.8822695460378,
+                19.4902899329879
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zona": "BOYEROS",
+        "zona_join": "BOYEROS",
+        "n_obs": 0,
+        "pct_forms": 0,
+        "score_forms": 0,
+        "nivel_forms": "sin_datos",
+        "pct_ficha_max": 0,
+        "urg_doc_max": 3.5,
+        "urg_doc_txt": "media_alta",
+        "incidentes_n": 0,
+        "estructural_n": 0,
+        "establec_n": 0,
+        "recursos_n": 0,
+        "revision_n": 0,
+        "sensible_n": 0,
+        "score_integrado": 0.175,
+        "prioridad_v05": "baja",
+        "publicacion": "PUBLICO_AGREGADO",
+        "nota_web": "Prioridad de validación/intervención; no representa riesgo absoluto."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.89793099701843,
+                19.4924935383856
+              ],
+              [
+                -98.89538107398747,
+                19.501004893899246
+              ],
+              [
+                -98.89563395477721,
+                19.504571979845107
+              ],
+              [
+                -98.89661078311993,
+                19.505072451375764
+              ],
+              [
+                -98.89799934621172,
+                19.50509930330293
+              ],
+              [
+                -98.90369374128079,
+                19.50551611973924
+              ],
+              [
+                -98.93109111098386,
+                19.496035050211653
+              ],
+              [
+                -98.89793099701843,
+                19.4924935383856
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
