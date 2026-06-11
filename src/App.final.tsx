@@ -392,16 +392,17 @@ function mergeFC(...fcs: GeoJSON.FeatureCollection[]): GeoJSON.FeatureCollection
 // ─────────────────────────────────────────────────────────
 // DATA PATHS
 // ─────────────────────────────────────────────────────────
+const BASE = import.meta.env.BASE_URL;
 const PATHS = {
-  zones:          '/data/sanitized/zonas_prioridad_integrada_o_indicadores.public.geojson',
-  nodesOri:       '/data/sanitized/nodos_orientacion_base.public.geojson',
-  nodesDoc:       '/data/sanitized/nodos_documentales_publicos_agregados.public.geojson',
-  routes:         '/data/sanitized/rutas_campus_y_trayectos.public.geojson',
-  connectors:     '/data/sanitized/conectores_visualizacion.public.geojson',
-  trayectos:      '/data/sanitized/trayectos_lectura.public.geojson',
-  evidence:       '/data/sanitized/evidencia_documental_agregada_por_zona.public.geojson',
-  qualSignals:    '/data/derived/qualitative_signals_by_zone.json',
-  surveySignals:  '/data/derived/survey_signals_by_zone.json',
+  zones:          `${BASE}data/sanitized/zonas_prioridad_integrada_o_indicadores.public.geojson`,
+  nodesOri:       `${BASE}data/sanitized/nodos_orientacion_base.public.geojson`,
+  nodesDoc:       `${BASE}data/sanitized/nodos_documentales_publicos_agregados.public.geojson`,
+  routes:         `${BASE}data/sanitized/rutas_campus_y_trayectos.public.geojson`,
+  connectors:     `${BASE}data/sanitized/conectores_visualizacion.public.geojson`,
+  trayectos:      `${BASE}data/sanitized/trayectos_lectura.public.geojson`,
+  evidence:       `${BASE}data/sanitized/evidencia_documental_agregada_por_zona.public.geojson`,
+  qualSignals:    `${BASE}data/derived/qualitative_signals_by_zone.json`,
+  surveySignals:  `${BASE}data/derived/survey_signals_by_zone.json`,
 };
 
 // ─────────────────────────────────────────────────────────
