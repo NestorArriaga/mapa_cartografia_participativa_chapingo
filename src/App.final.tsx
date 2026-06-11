@@ -426,7 +426,7 @@ export default function AppFinal() {
   const [dataLoaded, setDataLoaded] = useState(false);
   const [signalsByZone, setSignalsByZone] = useState<Record<string, Signal[]>>({});
 
-  const [panelsHidden, setPanelsHidden] = useState(window.innerWidth < 768);
+  const [panelsHidden, setPanelsHidden] = useState(false);
   const [focusMode, setFocusMode] = useState(false);
   const [selectedZone, setSelectedZone] = useState<ZoneResult|null>(null);
   const [selectedNode, setSelectedNode] = useState<Record<string,unknown>|null>(null);
@@ -700,6 +700,7 @@ export default function AppFinal() {
       setSelectedNode(props);
       setSelectedZone(null);
       setRightPanelTab('resumen');
+      if (isMobile) setPanelsHidden(false);
     });
 
     map.on('mouseenter','zones-fill', () => { map.getCanvas().style.cursor = 'pointer'; });
@@ -715,6 +716,7 @@ export default function AppFinal() {
         setSelectedNode(null);
         setCallout(null);
         setRightPanelTab('resumen');
+        if (isMobile) setPanelsHidden(false);
       }
     });
 
@@ -844,7 +846,7 @@ export default function AppFinal() {
 
       {/* LEFT PANEL */}
       {panels && (
-        <div data-testid="left-control-panel" style={{ position:'fixed', left:12, top: isMobile ? 64 : 12, bottom: isMobile ? 80 : 12, right: isMobile ? 12 : 'auto', width: isMobile ? 'auto' : 260, background:C.panel, backdropFilter:'blur(20px) saturate(1.4)', WebkitBackdropFilter:'blur(20px) saturate(1.4)', border:`1px solid ${C.border}`, borderRadius:14, boxShadow:`0 0 0 1px rgba(214,168,58,.05), 0 24px 48px rgba(0,0,0,.65), inset 0 1px 0 rgba(244,247,251,.04)`, display: (isMobile && hasRight) ? 'none' : 'flex', flexDirection:'column', overflow:'hidden', zIndex:20, animation:'mv-slide-left 250ms cubic-bezier(0.4,0,0.2,1) forwards' }}>
+        <div data-testid="left-control-panel" style={{ position:'fixed', left:12, top: isMobile ? 'auto' : 12, bottom: isMobile ? 80 : 12, right: isMobile ? 12 : 'auto', width: isMobile ? 'auto' : 260, height: isMobile ? '45vh' : 'auto', background:C.panel, backdropFilter:'blur(20px) saturate(1.4)', WebkitBackdropFilter:'blur(20px) saturate(1.4)', border:`1px solid ${C.border}`, borderRadius: isMobile ? '24px 24px 14px 14px' : 14, boxShadow:`0 0 0 1px rgba(214,168,58,.05), 0 24px 48px rgba(0,0,0,.65), inset 0 1px 0 rgba(244,247,251,.04)`, display: (isMobile && hasRight) ? 'none' : 'flex', flexDirection:'column', overflow:'hidden', zIndex:20, animation:'mv-slide-up 250ms cubic-bezier(0.4,0,0.2,1) forwards' }}>
           {/* Header */}
           <div style={{ padding:'18px 18px 14px', borderBottom:`1px solid rgba(214,168,58,.10)`, flexShrink:0 }}>
             <div style={{ fontFamily:"'Space Grotesk',system-ui,sans-serif", fontSize:13, fontWeight:600, color:C.gold, textTransform:'uppercase', letterSpacing:'0.02em' }}>Mapa Vivo</div>
@@ -935,8 +937,8 @@ export default function AppFinal() {
       )}
 
       {/* RIGHT PANEL */}
-      {panels && hasRight && (
-        <div data-testid="right-detail-panel" style={{ position:'fixed', right:12, top: isMobile ? 64 : 12, bottom: isMobile ? 80 : 12, left: isMobile ? 12 : 'auto', width: isMobile ? 'auto' : 300, background:C.panel, backdropFilter:'blur(20px) saturate(1.4)', WebkitBackdropFilter:'blur(20px) saturate(1.4)', border:`1px solid ${C.border}`, borderRadius:14, boxShadow:`0 0 0 1px rgba(214,168,58,.05), 0 24px 48px rgba(0,0,0,.65)`, display:'flex', flexDirection:'column', overflow:'hidden', zIndex:20, animation:'mv-slide-right 250ms cubic-bezier(0.4,0,0.2,1) forwards' }}>
+      {(!focusMode && hasRight) && (
+        <div data-testid="right-detail-panel" style={{ position:'fixed', right:12, top: isMobile ? 'auto' : 12, bottom: isMobile ? 80 : 12, left: isMobile ? 12 : 'auto', width: isMobile ? 'auto' : 300, height: isMobile ? '55vh' : 'auto', background:C.panel, backdropFilter:'blur(20px) saturate(1.4)', WebkitBackdropFilter:'blur(20px) saturate(1.4)', border:`1px solid ${C.border}`, borderRadius: isMobile ? '24px 24px 14px 14px' : 14, boxShadow:`0 0 0 1px rgba(214,168,58,.05), 0 24px 48px rgba(0,0,0,.65)`, display:'flex', flexDirection:'column', overflow:'hidden', zIndex:20, animation:'mv-slide-up 250ms cubic-bezier(0.4,0,0.2,1) forwards' }}>
           <div style={{ padding:'16px 18px 14px', borderBottom:`1px solid rgba(214,168,58,.10)`, flexShrink:0, position:'relative' }}>
             <button onClick={() => { setSelectedZone(null); setSelectedNode(null); setCallout(null); }} style={{ position:'absolute', top:14, right:14, background:'rgba(244,247,251,.06)', border:'none', borderRadius:6, width:24, height:24, cursor:'pointer', display:'flex', alignItems:'center', justifyContent:'center', color:C.muted, fontSize:12 }}
               onMouseEnter={e => { (e.currentTarget as HTMLButtonElement).style.background = 'rgba(255,77,94,.15)'; (e.currentTarget as HTMLButtonElement).style.color = C.coral; }}
