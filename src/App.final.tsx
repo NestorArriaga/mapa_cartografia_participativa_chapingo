@@ -1270,7 +1270,7 @@ function AnalyticsPanel({ zones, nodes, routes, onClose }: { zones:ZoneResult[];
 
   return (
     <div style={{ position:'fixed', inset:0, zIndex:60, background:'rgba(3,7,18,0.75)', backdropFilter:'blur(8px)', display:'flex', alignItems:'center', justifyContent:'center', animation:'mv-fade-in 150ms ease' }} onClick={onClose}>
-      <div onClick={e=>e.stopPropagation()} style={{ width:520, maxHeight:'80vh', background:C.panelHard, border:`1px solid ${C.border}`, borderRadius:16, boxShadow:'0 24px 80px rgba(0,0,0,.7)', animation:'mv-scale-in 200ms cubic-bezier(0.4,0,0.2,1) forwards', display:'flex', flexDirection:'column', overflow:'hidden' }}>
+      <div onClick={e=>e.stopPropagation()} style={{ width:'calc(100% - 24px)', maxWidth:520, maxHeight:'80vh', background:C.panelHard, border:`1px solid ${C.border}`, borderRadius:16, boxShadow:'0 24px 80px rgba(0,0,0,.7)', animation:'mv-scale-in 200ms cubic-bezier(0.4,0,0.2,1) forwards', display:'flex', flexDirection:'column', overflow:'hidden' }}>
         <div style={{ padding:'18px 20px 14px', borderBottom:`1px solid rgba(214,168,58,.10)`, display:'flex', justifyContent:'space-between', alignItems:'center' }}>
           <div>
             <div style={{ fontFamily:"'Space Grotesk',system-ui,sans-serif", fontSize:15, fontWeight:600, color:C.gold }}>📊 Panel de Analítica</div>
@@ -1279,7 +1279,7 @@ function AnalyticsPanel({ zones, nodes, routes, onClose }: { zones:ZoneResult[];
           <button onClick={onClose} style={{ background:'rgba(244,247,251,.06)', border:'none', borderRadius:6, width:28, height:28, cursor:'pointer', color:C.muted, fontSize:14, display:'flex', alignItems:'center', justifyContent:'center' }}>✕</button>
         </div>
         <div className="mv-scroll" style={{ flex:1, overflowY:'auto', padding:'16px 20px', WebkitOverflowScrolling: 'touch' }}>
-          <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr 1fr 1fr', gap:8, marginBottom:18 }}>
+          <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(100px, 1fr))', gap:8, marginBottom:18 }}>
             {[{l:'Score prom.',v:avg,c:C.gold},{l:'Zonas',v:zones.length,c:C.white},{l:'Nodos',v:nodes.features.length,c:C.green},{l:'Rutas',v:routes.features.length,c:C.orange}].map(({l,v,c}) => (
               <div key={l} style={{ background:'rgba(244,247,251,.03)', border:'1px solid rgba(244,247,251,.06)', borderRadius:8, padding:'10px 8px', textAlign:'center' }}>
                 <div style={{ fontFamily:"'Space Grotesk',system-ui,sans-serif", fontSize:20, fontWeight:700, color:c }}>{v}</div>
@@ -1299,7 +1299,7 @@ function AnalyticsPanel({ zones, nodes, routes, onClose }: { zones:ZoneResult[];
             </div>
           ))}
           <SectionLabel style={{marginTop:16}}>Nodos por categoría</SectionLabel>
-          <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:6 }}>
+          <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(130px, 1fr))', gap:6 }}>
             {Object.entries(cats).sort((a,b)=>b[1]-a[1]).map(([cat,count]) => {
               const i = getCatInfo(cat);
               return (
@@ -1323,7 +1323,7 @@ function ContribForm({ zones, onSubmit, onClose }: { zones:ZoneResult[]; onSubmi
   const [note, setNote] = useState('');
   return (
     <div style={{ position:'fixed', inset:0, zIndex:60, background:'rgba(3,7,18,0.75)', backdropFilter:'blur(8px)', display:'flex', alignItems:'center', justifyContent:'center', animation:'mv-fade-in 150ms ease' }} onClick={onClose}>
-      <div onClick={e=>e.stopPropagation()} style={{ width:380, background:C.panelHard, border:`1px solid ${C.border}`, borderRadius:14, boxShadow:'0 24px 80px rgba(0,0,0,.7)', padding:'20px 22px', animation:'mv-scale-in 200ms cubic-bezier(0.4,0,0.2,1) forwards' }}>
+      <div onClick={e=>e.stopPropagation()} style={{ width:'calc(100% - 24px)', maxWidth:380, background:C.panelHard, border:`1px solid ${C.border}`, borderRadius:14, boxShadow:'0 24px 80px rgba(0,0,0,.7)', padding:'20px 22px', animation:'mv-scale-in 200ms cubic-bezier(0.4,0,0.2,1) forwards' }}>
         <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:16 }}>
           <div style={{ fontFamily:"'Space Grotesk',system-ui,sans-serif", fontSize:15, fontWeight:600, color:C.gold }}>✦ Aportar observación</div>
           <button onClick={onClose} style={{ background:'rgba(244,247,251,.06)', border:'none', borderRadius:6, width:24, height:24, cursor:'pointer', color:C.muted, fontSize:12, display:'flex', alignItems:'center', justifyContent:'center' }}>✕</button>
